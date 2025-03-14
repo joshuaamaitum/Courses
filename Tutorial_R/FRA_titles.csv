@@ -1,0 +1,16 @@
+Code;Short title;Long title;Unit
+Country;Country;Country / territory name;NA
+Climate;Climate;Dominant climate in the country / territory;NA
+Continent;Continent;Main continent of the country / territory;NA
+LA;Land area;Land area;1000 ha
+FA;Forest area;Forest area;1000 ha
+OWA;Other woodland area;Other woodland area;1000 ha
+FAC;Forest area change;Forest area change 1990-2015;1000 ha/an
+PriFA;Primary forest area;Primary forest area 2015;1000 ha
+PlaFA;Planted forest area;Planted forest area 2015;1000 ha
+PlaFAC;Planted forest change;Planted forest area change 1990-2015;1000 ha/an
+FV;Forest volume;Forest volume (growing stock);Mm3
+CV;Coniferous volume;Coniferous volume (growing stock);Mm3
+MS2;Main 2 species;Main species 1-2 relative volume;%
+MS10;Main 10 species;Main species 1-10 relative volume;%
+FB;Forest biomass;Forest aboveground biomass;Mt
