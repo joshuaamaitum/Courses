@@ -1,0 +1,1504 @@
+<?xml version="1.0" encoding="utf-8"?>
+<bwFrame xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" default_layout="npnxnanbsnfns00000000011" textdirection="ltr" textengine="Uniscribe" device="false" fontscale="130" captionFontScale="100" kbshortcuts="false" skip_nav_enabled="true" chromeless="false" outputtype="undefined" theme="classic">
+  <layouts>
+    <layout name="npnxnanbsnfns00001110011" font="Noto Sans" controllayout="npnxnanbsnfns00001110011" colorscheme="npnxnanbsnfns00000000011" string_table="npnxnanbsnfns00000000011" />
+    <layout name="pxabnsnfns00001110011" font="Noto Sans" controllayout="pxabnsnfns00001110011" colorscheme="npnxnanbsnfns00000000011" string_table="npnxnanbsnfns00000000011" />
+    <layout name="npxnabnsnfns00001110011" font="Noto Sans" controllayout="npxnabnsnfns00001110011" colorscheme="npnxnanbsnfns00000000011" string_table="npnxnanbsnfns00000000011" />
+    <layout name="npnxnanbnsnfns00001110011" font="Noto Sans" controllayout="npnxnanbnsnfns00001110011" colorscheme="npnxnanbsnfns00000000011" string_table="npnxnanbsnfns00000000011" />
+    <layout name="pxabnsnfns00001110010" font="Noto Sans" controllayout="pxabnsnfns00001110010" colorscheme="npnxnanbsnfns00000000011" string_table="npnxnanbsnfns00000000011" />
+    <layout name="npnxnanbsnfns00000000011" font="Noto Sans" controllayout="npnxnanbsnfns00000000011" colorscheme="npnxnanbsnfns00000000011" string_table="npnxnanbsnfns00000000011" />
+    <layout name="pnxanbnsnfns00001110011" font="Noto Sans" controllayout="pnxanbnsnfns00001110011" colorscheme="npnxnanbsnfns00000000011" string_table="npnxnanbsnfns00000000011" />
+  </layouts>
+  <control_options>
+    <optiongroups>
+      <optiongroup name="sidebaroptions">
+        <options>
+          <option name="title_enabled" value="true">
+            <options>
+              <option name="title_text" value="Forests and transparency under the Paris Agreement" />
+            </options>
+          </option>
+          <option name="logo_enabled" value="false">
+            <options />
+          </option>
+          <option name="sidebar_enabled" value="false">
+            <options>
+              <option name="sidebarpos" value="left" />
+            </options>
+          </option>
+          <optionlist name="tabs">
+            <listitems>
+              <listitem name="outline" value="true" group="linkright" />
+              <listitem name="glossary" value="true" group="linkright" />
+              <listitem name="resources" value="true" group="linkright" />
+              <listitem name="customlink" value="true" group="linkright">
+                <properties>
+                  <property name="title" value="               " />
+                  <property name="data" value="68MryNUw0Nc" />
+                  <property name="ignoreSlideLock" value="true" />
+                </properties>
+              </listitem>
+              <listitem name="customlink" value="true" group="linkright">
+                <properties>
+                  <property name="title" value="Exit" />
+                  <property name="data" value="6k4rGB5orgV" />
+                  <property name="ignoreSlideLock" value="true" />
+                </properties>
+              </listitem>
+              <listitem name="transcript" value="false" group="sidebar" />
+            </listitems>
+          </optionlist>
+          <option name="time_enabled" value="false">
+            <options>
+              <option name="time_format" value="" />
+            </options>
+          </option>
+          <option name="video_enabled" value="false">
+            <options>
+              <option name="height" value="135" />
+            </options>
+          </option>
+          <option name="logoAltText" />
+        </options>
+      </optiongroup>
+      <optiongroup name="menuoptions">
+        <options>
+          <option name="flow" value="free" />
+          <option name="wraplistitems" value="true" />
+          <option name="tooltips" value="true" />
+          <option name="autocollapse" value="true" />
+          <option name="autonumber" value="false" />
+          <option name="enableresultsicons" value="true" />
+        </options>
+      </optiongroup>
+      <optiongroup name="controls">
+        <options>
+          <option name="volume" value="false" />
+          <option name="seekbar" value="false">
+            <options>
+              <option name="readonly" value="false" />
+              <option name="readonlyOnce" value="false" />
+            </options>
+          </option>
+          <option name="pauseplay" value="false" />
+          <option name="replay" value="false" />
+          <option name="search" value="true" />
+          <option name="closed_captions" value="false">
+            <options>
+              <option name="font" value="Noto Sans" />
+            </options>
+          </option>
+          <option name="settings" value="false" />
+          <option name="fullScreenToggle" value="false" />
+          <option name="playbackSpeedControl" value="false" />
+        </options>
+      </optiongroup>
+      <optiongroup name="bottombaroptions">
+        <options>
+          <option name="bottombar_enabled" value="true" />
+        </options>
+      </optiongroup>
+      <optiongroup name="buttonoptions">
+        <options>
+          <option name="next" value="icon" />
+          <option name="previous" value="icon" />
+          <option name="submit" value="icon" />
+        </options>
+      </optiongroup>
+    </optiongroups>
+  </control_options>
+  <control_layouts>
+    <control_layout name="npnxnanbsnfns00001110011">
+      <control name="volume" enabled="false" />
+      <control name="seekbar" enabled="false" />
+      <control name="replay" enabled="false" />
+      <control name="pauseplay" enabled="false" />
+      <control name="logo" enabled="false" />
+      <control name="previous" enabled="false" />
+      <control name="next" enabled="false" />
+      <control name="swipeleft" enabled="false" />
+      <control name="swiperight" enabled="false" />
+      <control name="submit" enabled="true" />
+      <control name="finish" enabled="false" />
+      <control name="submitall" enabled="false" />
+      <control name="resources" enabled="true" />
+      <control name="glossary" enabled="true" />
+      <control name="transcript" enabled="false" />
+      <control name="outline" enabled="true">
+        <controls>
+          <control name="search" enabled="true" />
+        </controls>
+      </control>
+      <control name="close_btn" enabled="true" />
+    </control_layout>
+    <control_layout name="pxabnsnfns00001110011">
+      <control name="volume" enabled="false" />
+      <control name="seekbar" enabled="false" />
+      <control name="replay" enabled="false" />
+      <control name="pauseplay" enabled="false" />
+      <control name="logo" enabled="false" />
+      <control name="previous" enabled="true" />
+      <control name="next" enabled="true" />
+      <control name="swipeleft" enabled="true" />
+      <control name="swiperight" enabled="true" />
+      <control name="submit" enabled="false" />
+      <control name="finish" enabled="false" />
+      <control name="submitall" enabled="false" />
+      <control name="resources" enabled="true" />
+      <control name="glossary" enabled="true" />
+      <control name="transcript" enabled="false" />
+      <control name="outline" enabled="true">
+        <controls>
+          <control name="search" enabled="true" />
+        </controls>
+      </control>
+      <control name="close_btn" enabled="true" />
+    </control_layout>
+    <control_layout name="npxnabnsnfns00001110011">
+      <control name="volume" enabled="false" />
+      <control name="seekbar" enabled="false" />
+      <control name="replay" enabled="false" />
+      <control name="pauseplay" enabled="false" />
+      <control name="logo" enabled="false" />
+      <control name="previous" enabled="false" />
+      <control name="next" enabled="true" />
+      <control name="swipeleft" enabled="false" />
+      <control name="swiperight" enabled="true" />
+      <control name="submit" enabled="false" />
+      <control name="finish" enabled="false" />
+      <control name="submitall" enabled="false" />
+      <control name="resources" enabled="true" />
+      <control name="glossary" enabled="true" />
+      <control name="transcript" enabled="false" />
+      <control name="outline" enabled="true">
+        <controls>
+          <control name="search" enabled="true" />
+        </controls>
+      </control>
+      <control name="close_btn" enabled="true" />
+    </control_layout>
+    <control_layout name="npnxnanbnsnfns00001110011">
+      <control name="volume" enabled="false" />
+      <control name="seekbar" enabled="false" />
+      <control name="replay" enabled="false" />
+      <control name="pauseplay" enabled="false" />
+      <control name="logo" enabled="false" />
+      <control name="previous" enabled="false" />
+      <control name="next" enabled="false" />
+      <control name="swipeleft" enabled="false" />
+      <control name="swiperight" enabled="false" />
+      <control name="submit" enabled="false" />
+      <control name="finish" enabled="false" />
+      <control name="submitall" enabled="false" />
+      <control name="resources" enabled="true" />
+      <control name="glossary" enabled="true" />
+      <control name="transcript" enabled="false" />
+      <control name="outline" enabled="true">
+        <controls>
+          <control name="search" enabled="true" />
+        </controls>
+      </control>
+      <control name="close_btn" enabled="true" />
+    </control_layout>
+    <control_layout name="pxabnsnfns00001110010">
+      <control name="volume" enabled="false" />
+      <control name="seekbar" enabled="false" />
+      <control name="replay" enabled="false" />
+      <control name="pauseplay" enabled="false" />
+      <control name="logo" enabled="false" />
+      <control name="previous" enabled="true" />
+      <control name="next" enabled="true" />
+      <control name="swipeleft" enabled="true" />
+      <control name="swiperight" enabled="true" />
+      <control name="submit" enabled="false" />
+      <control name="finish" enabled="false" />
+      <control name="submitall" enabled="false" />
+      <control name="resources" enabled="true" />
+      <control name="glossary" enabled="true" />
+      <control name="transcript" enabled="false" />
+      <control name="outline" enabled="true">
+        <controls>
+          <control name="search" enabled="true" />
+        </controls>
+      </control>
+      <control name="close_btn" enabled="false" />
+    </control_layout>
+    <control_layout name="npnxnanbsnfns00000000011">
+      <control name="volume" enabled="false" />
+      <control name="seekbar" enabled="false" />
+      <control name="replay" enabled="false" />
+      <control name="pauseplay" enabled="false" />
+      <control name="logo" enabled="false" />
+      <control name="previous" enabled="false" />
+      <control name="next" enabled="false" />
+      <control name="swipeleft" enabled="false" />
+      <control name="swiperight" enabled="false" />
+      <control name="submit" enabled="true" />
+      <control name="finish" enabled="false" />
+      <control name="submitall" enabled="false" />
+      <control name="resources" enabled="false" />
+      <control name="glossary" enabled="false" />
+      <control name="transcript" enabled="false" />
+      <control name="outline" enabled="false">
+        <controls>
+          <control name="search" enabled="true" />
+        </controls>
+      </control>
+      <control name="close_btn" enabled="true" />
+    </control_layout>
+    <control_layout name="pnxanbnsnfns00001110011">
+      <control name="volume" enabled="false" />
+      <control name="seekbar" enabled="false" />
+      <control name="replay" enabled="false" />
+      <control name="pauseplay" enabled="false" />
+      <control name="logo" enabled="false" />
+      <control name="previous" enabled="true" />
+      <control name="next" enabled="false" />
+      <control name="swipeleft" enabled="true" />
+      <control name="swiperight" enabled="false" />
+      <control name="submit" enabled="false" />
+      <control name="finish" enabled="false" />
+      <control name="submitall" enabled="false" />
+      <control name="resources" enabled="true" />
+      <control name="glossary" enabled="true" />
+      <control name="transcript" enabled="false" />
+      <control name="outline" enabled="true">
+        <controls>
+          <control name="search" enabled="true" />
+        </controls>
+      </control>
+      <control name="close_btn" enabled="true" />
+    </control_layout>
+  </control_layouts>
+  <colorschemes>
+    <colorscheme name="npnxnanbsnfns00000000011">
+      <color_group name="infopanel">
+        <group_colors>
+          <color name="link_text">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x7C2280" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="link_hover">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x0000EE" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="bg">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xFFFFFF" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="shadow">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xB8B8B8" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="name_text">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x444444" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="title_text">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x999999" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+        </group_colors>
+      </color_group>
+      <color_group name="infopanelpopup">
+        <group_colors>
+          <color name="link_text">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x7C2280" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="link_hover">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x0000EE" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="bg">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xE9E9E9" alpha="100" stop="0" />
+                <color rgb="0xCFCFCF" alpha="100" stop="255" />
+              </colors>
+            </fill>
+          </color>
+          <color name="shadow">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xB8B8B8" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="name_text">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x444444" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="bio_text">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x999999" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+        </group_colors>
+      </color_group>
+      <color_group name="timer">
+        <group_colors>
+          <color name="duration">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x00D7FF" alpha="100" stop="0" />
+                <color rgb="0x00ABFF" alpha="100" stop="255" />
+              </colors>
+            </fill>
+          </color>
+          <color name="elapsed">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xFEE347" alpha="100" stop="0" />
+                <color rgb="0xFCCC2A" alpha="100" stop="255" />
+              </colors>
+            </fill>
+          </color>
+          <color name="stroke">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xC7C7C7" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="inner">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xFFFFFF" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="text">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x555555" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+        </group_colors>
+      </color_group>
+      <color_group name="window">
+        <group_colors>
+          <color name="text">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x555555" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="inner">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xEAEAEA" alpha="100" stop="0" />
+                <color rgb="0xCFCFCF" alpha="100" stop="255" />
+              </colors>
+            </fill>
+          </color>
+          <color name="bg">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xF3F3F3" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="diva">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xF7F7F7" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="divb">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xD3D3D3" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="shadow">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x000000" alpha="20" stop="0" />
+              </colors>
+            </fill>
+          </color>
+        </group_colors>
+      </color_group>
+      <color_group name="editor">
+        <group_colors>
+          <color name="slide_text">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x555555" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="html_text">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xFFFFFF" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="btn_bg">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xF5F5F5" alpha="100" stop="0" />
+                <color rgb="0xC7C7C7" alpha="100" stop="255" />
+              </colors>
+            </fill>
+          </color>
+          <color name="btn_hover">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xF2F2F2" alpha="100" stop="0" />
+                <color rgb="0xAFAFAF" alpha="100" stop="255" />
+              </colors>
+            </fill>
+          </color>
+          <color name="btn_down">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xC7C7C7" alpha="100" stop="0" />
+                <color rgb="0xF4F4F4" alpha="100" stop="255" />
+              </colors>
+            </fill>
+          </color>
+          <color name="btn_border">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xB1B1B1" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="btn_text">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x353535" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="btn_text_shadow">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xF0F0F0" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+        </group_colors>
+      </color_group>
+      <color_group name="listitem">
+        <group_colors>
+          <color name="selected_text">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xFFFFFF" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="lines">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xDFDFDF" alpha="0" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="hover">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x000000" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="viewed">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xFFFFFF" alpha="90" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="text">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xFFFFFF" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="selected">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x000000" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="shadow">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xFFFFFF" alpha="0" stop="0" />
+              </colors>
+            </fill>
+          </color>
+        </group_colors>
+      </color_group>
+      <color_group name="base">
+        <group_colors>
+          <color name="text">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xFFFFFF" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="diva">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x31373A" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="divb">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x31373A" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="bg">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x31373A" alpha="100" stop="0" />
+                <color rgb="0x31373A" alpha="100" stop="255" />
+              </colors>
+            </fill>
+          </color>
+          <color name="border">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x31373A" alpha="100" stop="0" />
+                <color rgb="0x31373A" alpha="100" stop="255" />
+              </colors>
+            </fill>
+          </color>
+          <color name="menu_shade">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xDBDBDB" alpha="100" stop="0" />
+                <color rgb="0xC3C3C3" alpha="100" stop="255" />
+              </colors>
+            </fill>
+          </color>
+          <color name="slide_bg">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x31373A" alpha="100" stop="0" />
+                <color rgb="0x31373A" alpha="100" stop="255" />
+              </colors>
+            </fill>
+          </color>
+        </group_colors>
+      </color_group>
+      <color_group name="button">
+        <group_colors>
+          <color name="btn_bg">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xFFFFFF" alpha="10" stop="0" />
+                <color rgb="0xFFFFFF" alpha="10" stop="255" />
+              </colors>
+            </fill>
+          </color>
+          <color name="btn_hover">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xFFFFFF" alpha="20" stop="0" />
+                <color rgb="0xD9D9D9" alpha="20" stop="255" />
+              </colors>
+            </fill>
+          </color>
+          <color name="btn_down">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xC7C7C7" alpha="0" stop="0" />
+                <color rgb="0xF4F4F4" alpha="0" stop="255" />
+              </colors>
+            </fill>
+          </color>
+          <color name="btn_border">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xFFFFFF" alpha="0" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="btn_text">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xFFFFFF" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="btn_text_shadow">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xF0F0F0" alpha="0" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="btn_icon_color">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xFFFFFF" alpha="90" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="btn_glow">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x31373A" alpha="0" stop="0" />
+              </colors>
+            </fill>
+          </color>
+        </group_colors>
+      </color_group>
+      <color_group name="checkbox">
+        <group_colors>
+          <color name="border">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xB8B8B8" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="bg">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xFFFFFF" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="check">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x33CC00" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="text">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x444444" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="hover">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x6BF8FF" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+        </group_colors>
+      </color_group>
+      <color_group name="logo">
+        <group_colors>
+          <color name="bg">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xFFFFFF" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="shadow">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xB8B8B8" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+        </group_colors>
+      </color_group>
+      <color_group name="menu">
+        <group_colors>
+          <color name="bg">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x454D51" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="shadow">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xB8B8B8" alpha="0" stop="0" />
+              </colors>
+            </fill>
+          </color>
+        </group_colors>
+      </color_group>
+      <color_group name="scrollarea">
+        <group_colors>
+          <color name="bg">
+            <fill type="linear" rotation="0">
+              <colors>
+                <color rgb="0x31373A" alpha="100" stop="0" />
+                <color rgb="0x31373A" alpha="100" stop="128" />
+              </colors>
+            </fill>
+          </color>
+          <color name="border">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x31373A" alpha="100" stop="0" />
+                <color rgb="0x31373A" alpha="100" stop="255" />
+              </colors>
+            </fill>
+          </color>
+          <color name="button_bg">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x9EA8AD" alpha="100" stop="0" />
+                <color rgb="0x9EA8AD" alpha="100" stop="255" />
+              </colors>
+            </fill>
+          </color>
+          <color name="button_inner">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xCBCBCB" alpha="0" stop="0" />
+                <color rgb="0xBABABA" alpha="0" stop="255" />
+              </colors>
+            </fill>
+          </color>
+          <color name="button_border">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xB8B8B8" alpha="0" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="icons">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xFFFFFF" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="shadow">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xD9D9D9" alpha="0" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="detaila">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xA7A7A7" alpha="0" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="detailb">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xCFCFCF" alpha="0" stop="0" />
+              </colors>
+            </fill>
+          </color>
+        </group_colors>
+      </color_group>
+      <color_group name="searchinput">
+        <group_colors>
+          <color name="bg">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xFFFFFF" alpha="95" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="border">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xADADAD" alpha="0" stop="0" />
+                <color rgb="0xFAFAFA" alpha="0" stop="255" />
+              </colors>
+            </fill>
+          </color>
+          <color name="icon">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x31373A" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="button_hover">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xF5F5F5" alpha="0" stop="0" />
+                <color rgb="0xC7C7C7" alpha="0" stop="255" />
+              </colors>
+            </fill>
+          </color>
+          <color name="hover_glow">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x6BF8FF" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="search_text">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x31373A" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="bg_active">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xFAFAFA" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="text_active">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x333333" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+        </group_colors>
+      </color_group>
+      <color_group name="seekcontrol">
+        <group_colors>
+          <color name="bg">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xF5F5F5" alpha="100" stop="0" />
+                <color rgb="0xC7C7C7" alpha="100" stop="255" />
+              </colors>
+            </fill>
+          </color>
+          <color name="border">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xB1B1B1" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="seek_border">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xB8B8B8" alpha="100" stop="0" />
+                <color rgb="0xEEEEEE" alpha="100" stop="255" />
+              </colors>
+            </fill>
+          </color>
+          <color name="seek_bg">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xE7E7E7" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="seek_position">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xFFFFFF" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="btn_icon_color">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x2D2D2D" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="btn_icon_hover">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x555555" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="btn_icon_shadow">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xF0F0F0" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+        </group_colors>
+      </color_group>
+      <color_group name="tabs">
+        <group_colors>
+          <color name="bg">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xF3F3F3" alpha="0" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="text">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xFFFFFF" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="selected">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xFFFFFF" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="hover">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x454D51" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="shadow">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xF0F0F0" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+        </group_colors>
+      </color_group>
+      <color_group name="transcript">
+        <group_colors>
+          <color name="div">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xFFFFFF" alpha="80" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="heading_text">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xFFFFFF" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+        </group_colors>
+      </color_group>
+      <color_group name="outline">
+        <group_colors>
+          <color name="diva">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xFFFFFF" alpha="40" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="divb">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xF9F9F9" alpha="0" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="divc">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xE1E1E1" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="search_text">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x444444" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="search_hover">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x0000EE" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+        </group_colors>
+      </color_group>
+      <color_group name="resource">
+        <group_colors>
+          <color name="separator">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xE0E0E0" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+        </group_colors>
+      </color_group>
+      <color_group name="glossary">
+        <group_colors>
+          <color name="selected_text">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xFFFFFF" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="selected">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x000000" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="text">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xFFFFFF" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="hover">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x000000" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="diva">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xE2E2E2" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="divb">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xE2E2E2" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="divc">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xFAFAFA" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="bg">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x464E52" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="heading_text">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xFFFFFF" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+        </group_colors>
+      </color_group>
+      <color_group name="volume">
+        <group_colors>
+          <color name="thumb_border">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xA5A5A5" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="thumb_inner">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xD4D4D4" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="thumb_bg">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xC8C8C8" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="slider_border">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xF2F2F2" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="slider_bg">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xBCBCBC" alpha="100" stop="0" />
+                <color rgb="0xBCBCBC" alpha="100" stop="128" />
+                <color rgb="0xC3C3C3" alpha="100" stop="255" />
+              </colors>
+            </fill>
+          </color>
+        </group_colors>
+      </color_group>
+      <color_group name="HTML">
+        <group_colors>
+          <color name="htmlpage_bg_color">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x31373A" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+        </group_colors>
+      </color_group>
+      <color_group name="accessibility">
+        <group_colors>
+          <color name="focus_rect">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xFFFF00" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+        </group_colors>
+      </color_group>
+    </colorscheme>
+  </colorschemes>
+  <string_tables>
+    <string_table name="npnxnanbsnfns00000000011">
+      <string id="three_image_progress_audio">progress</string>
+      <string id="three_image_audio">audio</string>
+      <string id="three_image_camera_down">camera moved down</string>
+      <string id="three_image_camera_left">camera moved left</string>
+      <string id="three_image_camera_right">camera moved right</string>
+      <string id="three_image_camera_up">camera moved up</string>
+      <string id="three_image_interaction_free">free exploration mode</string>
+      <string id="three_image_interaction_guided">guided tour mode</string>
+      <string id="three_image_hotspot">hotspot</string>
+      <string id="three_image_instructions">Use the w, a, s, and d keys to move around the 360 degree image. Press the tab key to jump to interactive markers and hotspots.</string>
+      <string id="three_image_interaction">360 degree image interaction</string>
+      <string id="three_image_label">label</string>
+      <string id="three_image_marker">marker</string>
+      <string id="three_image_items">items</string>
+      <string id="three_image_interaction_next">next</string>
+      <string id="three_image_pause_audio">pause audio</string>
+      <string id="three_image_pause_video">pause video</string>
+      <string id="three_image_play_audio">play audio</string>
+      <string id="three_image_play_video">play video</string>
+      <string id="three_image_interaction_prev">previous</string>
+      <string id="three_image_visited">visited</string>
+      <string id="three_image_of">of</string>
+      <string id="three_image_count_of_total">%count% of %total%</string>
+      <string id="acc_three_image_step_count_of_total">step %count% of %total%</string>
+      <string id="three_image_item">item</string>
+      <string id="three_image_interaction_step">step</string>
+      <string id="three_image_tooltip">tooltip</string>
+      <string id="three_image_total_items">%total% items</string>
+      <string id="three_image_total_item">%total% item</string>
+      <string id="three_image_progress_video">progress</string>
+      <string id="three_image_video">video</string>
+      <string id="three_image_video_volume">video volume</string>
+      <string id="three_image_view_image">view image</string>
+      <string id="acc_three_image_count_of_total_items_visited">%count% of %total% items visited</string>
+      <string id="acc_three_image_count_of_total_item_visited">%count% of %total% item visited</string>
+      <string id="three_image_count_of_total_visited">%count% of %total% visited</string>
+      <string id="accessible_text">Accessible text</string>
+      <string id="keyboardshortcuts_lower">Keyboard shortcuts</string>
+      <string id="zoom_to_fit">Zoom to fit</string>
+      <string id="acc_active">active</string>
+      <string id="alt_key">Alt</string>
+      <string id="check_include">Check to include</string>
+      <string id="clear">Clear and return to menu</string>
+      <string id="close">Close</string>
+      <string id="acc_closed_captions">Closed captions. Press the spacebar to toggle captions on and off.</string>
+      <string id="closed_captions_tip">Toggle captions</string>
+      <string id="continue">Continue</string>
+      <string id="continueresponsive">Continue</string>
+      <string id="ctrl_key">Ctrl</string>
+      <string id="enable_keyboardshortcuts">Enable keyboard shortcuts</string>
+      <string id="enter_key">Enter</string>
+      <string id="exit">Exit</string>
+      <string id="filter">Filter</string>
+      <string id="finish">FINISH</string>
+      <string id="acc_finish">finish</string>
+      <string id="definition">Definition</string>
+      <string id="acc_definition">definition</string>
+      <string id="glossary">Glossary</string>
+      <string id="terms">Terms</string>
+      <string id="progress_hour">hour</string>
+      <string id="progress_hours">hours</string>
+      <string id="action">Action</string>
+      <string id="keyboardshortcuts">Keyboard Shortcuts</string>
+      <string id="shortcuthelp">List keyboard shortcuts</string>
+      <string id="mute_shortcut">Mute / unmute</string>
+      <string id="next_shortcut">Next slide</string>
+      <string id="playpause_shortcut">Play / pause</string>
+      <string id="previous_shortcut">Previous slide</string>
+      <string id="replay_shortcut">Replay slide</string>
+      <string id="shortcut">Shortcut</string>
+      <string id="submit_shortcut">Submit slide</string>
+      <string id="acctext_shortcut">Toggle accessible text</string>
+      <string id="closedcaptions_shortcut">Toggle closed captions</string>
+      <string id="togglezoom">Toggle zoom to fit</string>
+      <string id="outline">Menu</string>
+      <string id="disabled_orientation">Please rotate your device</string>
+      <string id="progress_minute">minute</string>
+      <string id="progress_minutes">minutes</string>
+      <string id="mute_tip">Mute</string>
+      <string id="next">Next  </string>
+      <string id="acc_next">next</string>
+      <string id="next_slide_tip">Next slide</string>
+      <string id="transcript_chk">Notes</string>
+      <string id="transcript">About</string>
+      <string id="bio">Bio</string>
+      <string id="more_info">More info</string>
+      <string id="closed_captions">Captions</string>
+      <string id="acc_pause">pause</string>
+      <string id="pause_tip">Pause</string>
+      <string id="acc_play">play</string>
+      <string id="play_tip">Play</string>
+      <string id="send_an_email">Send an email</string>
+      <string id="prev">  Prev</string>
+      <string id="acc_previous">previous</string>
+      <string id="previous_slide_tip">Previous slide</string>
+      <string id="question_list">Question List</string>
+      <string id="replay_tip">Replay</string>
+      <string id="acc_replay">replay</string>
+      <string id="resources">Resources</string>
+      <string id="acc_resources">resources</string>
+      <string id="restart">Restart</string>
+      <string id="resume">Resume</string>
+      <string id="acc_locked">locked</string>
+      <string id="acc_search_input">search</string>
+      <string id="search_toggle">Search</string>
+      <string id="sidebar_toggle">Sidebar Toggle</string>
+      <string id="acc_slide_progress">slide progress</string>
+      <string id="desktop_start">Start Course</string>
+      <string id="mobile_start">Start Course</string>
+      <string id="acc_visited">visited</string>
+      <string id="search">Search...</string>
+      <string id="search_in">Search in:</string>
+      <string id="search_results">Search Results</string>
+      <string id="progress_second">second</string>
+      <string id="progress_seconds">seconds</string>
+      <string id="settings_tip">Settings</string>
+      <string id="shift_key">Shift</string>
+      <string id="acc_skipnavigation">Skip navigation. Press enter to return to the slide.</string>
+      <string id="slide_text_chk">Slide Text</string>
+      <string id="spacebar_key">Space</string>
+      <string id="submitall">SUBMIT ALL</string>
+      <string id="acc_submitall">submit all</string>
+      <string id="submit">START</string>
+      <string id="acc_submit">submit</string>
+      <string id="submit_tip">Submit</string>
+      <string id="unmute_tip">Unmute</string>
+      <string id="acc_volume">volume</string>
+    </string_table>
+  </string_tables>
+  <fonts>
+    <font name="Noto Sans">
+      <files>
+        <file bold="true" italic="false" />
+        <file bold="false" italic="false" />
+      </files>
+    </font>
+    <font name="Arial">
+      <files>
+        <file bold="false" italic="false" />
+      </files>
+    </font>
+  </fonts>
+  <sounds enabled="true" />
+  <nav_data>
+    <outline>
+      <links>
+        <slidelink slideid="_player.5Zmr3KNivpE.6IyYyFV8Zr1" displaytext="Homepage" expand="false" type="slide" />
+        <slidelink slideid="_player.5VDLpqNfCcb" displaytext="Lesson 2: The National Forest Monitoring System " expand="false" type="slide">
+          <links>
+            <slidelink slideid="_player.5VDLpqNfCcb.5rEhQnEMZJ7" displaytext="1. Lesson intro" expand="false" type="slide" />
+            <slidelink slideid="_player.5VDLpqNfCcb.5g4THMJ8dDh" displaytext="2. Learning objectives" expand="false" type="slide" />
+            <slidelink slideid="_player.5VDLpqNfCcb.6UxoIPVszr4" displaytext="3. Introduction" expand="false" type="slide" />
+            <slidelink slideid="_player.5VDLpqNfCcb.64uC9NDQNzo" displaytext="4. National forest inventory and national forest monitoring" expand="false" type="slide" />
+            <slidelink slideid="_player.5VDLpqNfCcb.6DKZ6LKJXw4" displaytext="5. National Forest Monitoring System" expand="false" type="slide" />
+            <slidelink slideid="_player.5VDLpqNfCcb.6GpD6jCB942" displaytext="6. Test your knowledge" expand="false" type="slide" />
+            <slidelink slideid="_player.5VDLpqNfCcb.6ag9Rjt2qW2" displaytext="7. What is the aim of an NFMS?" expand="false" type="slide" />
+            <slidelink slideid="_player.5VDLpqNfCcb.5uA1jo4pSlU" displaytext="8. What do we know about NFM worldwide?" expand="false" type="slide" />
+            <slidelink slideid="_player.5VDLpqNfCcb.5kATJuHsFjb" displaytext="9. Voluntary guidelines on national forest monitoring" expand="false" type="slide" />
+            <slidelink slideid="_player.5VDLpqNfCcb.6By5MjjrEb0" displaytext="10. Principles for a sustainable NFMS" expand="false" type="slide" />
+            <slidelink slideid="_player.5VDLpqNfCcb.5gZIAbpkR9U" displaytext="11. Applying the principles" expand="false" type="slide" />
+            <slidelink slideid="_player.5VDLpqNfCcb.6TDhK3VI0Tk" displaytext="12. Test your knowledge" expand="false" type="slide" />
+            <slidelink slideid="_player.5VDLpqNfCcb.6RD9vPPVziv" displaytext="13. Principles for a sustainable NFMS" expand="false" type="slide" />
+            <slidelink slideid="_player.5VDLpqNfCcb.5cCGJVkyMbW" displaytext="14. Principles for a sustainable NFMS" expand="false" type="slide" />
+            <slidelink slideid="_player.5VDLpqNfCcb.6XP58f6DQHU" displaytext="15. Cross-cutting issues" expand="false" type="slide" />
+            <slidelink slideid="_player.5VDLpqNfCcb.6EoUR17DHgX" displaytext="16. Cross-cutting issues" expand="false" type="slide" />
+            <slidelink slideid="_player.5VDLpqNfCcb.6j4OVzgRNSD" displaytext="17. Elements for a sustainable NFMS" expand="false" type="slide" />
+            <slidelink slideid="_player.5VDLpqNfCcb.66AT41UtNRl" displaytext="18. Foundation elements" expand="false" type="slide" />
+            <slidelink slideid="_player.5VDLpqNfCcb.60nnGmEw0qD" displaytext="19. Foundation elements" expand="false" type="slide" />
+            <slidelink slideid="_player.5VDLpqNfCcb.6a1EUq0HMYt" displaytext="20. Strategic elements" expand="false" type="slide" />
+            <slidelink slideid="_player.5VDLpqNfCcb.5hAu3wylYw5" displaytext="21. Strategic elements" expand="false" type="slide" />
+            <slidelink slideid="_player.5VDLpqNfCcb.5tYox8xhAU0" displaytext="22. Operational elements" expand="false" type="slide" />
+            <slidelink slideid="_player.5VDLpqNfCcb.5sQoGA5L2b1" displaytext="23. Operational elements" expand="false" type="slide" />
+            <slidelink slideid="_player.5VDLpqNfCcb.6eY5K4j1SKP" displaytext="24. Test your knowledge" expand="false" type="slide" />
+            <slidelink slideid="_player.5VDLpqNfCcb.6GLED2NmQw8" displaytext="25. Test your knowledge" expand="false" type="slide" />
+            <slidelink slideid="_player.5VDLpqNfCcb.5YCREGmfXiY" displaytext="26. Principles and elements of a sustainable NFMS" expand="false" type="slide" />
+            <slidelink slideid="_player.5VDLpqNfCcb.69S86wkuqob" displaytext="27. Summary" expand="false" type="slide" />
+          </links>
+        </slidelink>
+        <slidelink slideid="_player.67yU783Gqi7.6kOYkcgkW3v" displaytext="Image credits" expand="false" type="slide" />
+      </links>
+    </outline>
+    <search>
+      <slidetext slideid="5Zmr3KNivpE.6IyYyFV8Zr1" slidebank="false" type="slide">  terms and conditions of use  please read these terms and conditions before using the course entitled "forests and transparency under the paris agreement". 1.     general. this user agreement sets forth the terms and conditions of a license for you to use the course entitled "forests and transparency under the paris agreement" version 1.0 (hereinafter referred to as "the product"). the course includes materials specifically developed by the food and agriculture organization (fao) and their partner and contributing organizations (hereinafter referred to as "partners"). 2.     usage. fao holds the copyright over the product and any algorithms or other proprietary information specifically developed by fao for inclusion in the product, which are protected by copyright laws and regulations worldwide. the product includes additional materials and resources such as documents, user manuals, images and software provided "as is" by fao and the partners, or made available over the internet. fao or the partners hold copyright on the additional materials and resources which are provided "as is" for inclusion with the product. fao and the partners hereby grant you a license to use the product, and to print the materials that are the result of the use of the product solely for educational or other non-commercial purposes, and in accordance with this user agreement. reproduction of material specifically developed by fao and contributing partners for inclusion in the product for resale or other commercial purposes is prohibited. 3.     disclaimer of warranty; limitations on liability. you expressly acknowledge and agree that any and all use of the product, and the materials specifically developed by the partners is at your sole risk. neither fao, its affiliates, or any of their respective employees, agents, third-party content providers, or licensors warrant that access to and use of the product will be free from interruptions or free from errors; nor do they make any warranty as to the results that may be obtained from use of the product and the materials specifically developed by the partners, or as to the accuracy, reliability, or content of any information or service provided through the product. the product and the materials specifically developed by the partners are provided "as is" without any warranties of any kind, either express or implied, including but not limited to warranties of title or implied warranties of merchantability or fitness for a particular purpose. in no event shall fao be liable to you or any other person for any loss of business or profits, or for any indirect, incidental or consequential damages arising out of any use of, or inability to use, the product, even if fao was previously advised of the possibility of such damages, or for any other claim by you or any other person. 4.     disclaimer for external links. external links to non-fao internet addresses are provided in the product. such external internet addresses contain information created, published, maintained, or otherwise posted by institutions, individuals, or organizations independent of fao. at the time such links were initiated, an author determined such links to be of interest to the course users. however, fao does not endorse, approve, certify, or exercise any editorial control over these external sites and does not guarantee the accuracy, completeness, efficacy, timeliness, or correct sequencing of information located at such addresses. use of any information obtained from such addresses is voluntary. reference therein to any specific commercial product, process, or service by trade name, trademark, service mark, manufacturer, or otherwise does not constitute or imply endorsement or recommendation by the fao. 5.     indemnification. by using the product, you agree to defend, indemnify, and hold harmless fao, its partners, affiliates and respective directors, officers, employees, and agents from and against all claims and expenses, including attorneys' fees, arising out of the use of the product by you or by anyone having access to the product by means of your account. 6.     termination. either you or fao may terminate this user agreement at any time, effective immediately, with or without prior notice to the other party. termination of this agreement automatically terminates your license to use the product and any content or other material contained therein. the provisions of section 3, 4, 6 and 7 shall survive any termination of this user agreement. 7.     governing law; disputes. this user agreement shall be governed by general principles of law, to the exclusion of any single national system of law. any dispute, controversy or claim arising under or pursuant to this user agreement shall be settled by mutual agreement. if fao and you are unable to reach agreement on any question in dispute, either party shall have the right to request arbitration in accordance with the arbitration rules of the united nations commission on international trade law. fao and you agree to be bound by any arbitration ruling rendered in accordance with the above, as the final adjudication of any such dispute. nothing contained in or related to this user agreement shall be deemed a waiver, express or implied, of the privileges and immunities of fao. 8.     miscellaneous. this user agreement and any fao policies relating to your operation and use of the product constitute the entire agreement and understanding between fao and you with respect to the subject matter hereof.  please accept the terms and conditions please accept the terms and conditions accept accept           terms and conditions of use  please read these terms and conditions before using the course entitled "forests and transparency under the paris agreement". 1.     general. this user agreement sets forth the terms and conditions of a license for you to use the course entitled "forests and transparency under the paris agreement" version 1.0 (hereinafter referred to as "the product"). the course includes materials specifically developed by the food and agriculture organization (fao) and their partner and contributing organizations (hereinafter referred to as "partners"). 2.     usage. fao holds the copyright over the product and any algorithms or other proprietary information specifically developed by fao for inclusion in the product, which are protected by copyright laws and regulations worldwide. the product includes additional materials and resources such as documents, user manuals, images and software provided "as is" by fao and the partners, or made available over the internet. fao or the partners hold copyright on the additional materials and resources which are provided "as is" for inclusion with the product. fao and the partners hereby grant you a license to use the product, and to print the materials that are the result of the use of the product solely for educational or other non-commercial purposes, and in accordance with this user agreement. reproduction of material specifically developed by fao and contributing partners for inclusion in the product for resale or other commercial purposes is prohibited. 3.     disclaimer of warranty; limitations on liability. you expressly acknowledge and agree that any and all use of the product, and the materials specifically developed by the partners is at your sole risk. neither fao, its affiliates, or any of their respective employees, agents, third-party content providers, or licensors warrant that access to and use of the product will be free from interruptions or free from errors; nor do they make any warranty as to the results that may be obtained from use of the product and the materials specifically developed by the partners, or as to the accuracy, reliability, or content of any information or service provided through the product. the product and the materials specifically developed by the partners are provided "as is" without any warranties of any kind, either express or implied, including but not limited to warranties of title or implied warranties of merchantability or fitness for a particular purpose. in no event shall fao be liable to you or any other person for any loss of business or profits, or for any indirect, incidental or consequential damages arising out of any use of, or inability to use, the product, even if fao was previously advised of the possibility of such damages, or for any other claim by you or any other person. 4.     disclaimer for external links. external links to non-fao internet addresses are provided in the product. such external internet addresses contain information created, published, maintained, or otherwise posted by institutions, individuals, or organizations independent of fao. at the time such links were initiated, an author determined such links to be of interest to the course users. however, fao does not endorse, approve, certify, or exercise any editorial control over these external sites and does not guarantee the accuracy, completeness, efficacy, timeliness, or correct sequencing of information located at such addresses. use of any information obtained from such addresses is voluntary. reference therein to any specific commercial product, process, or service by trade name, trademark, service mark, manufacturer, or otherwise does not constitute or imply endorsement or recommendation by the fao. 5.     indemnification. by using the product, you agree to defend, indemnify, and hold harmless fao, its partners, affiliates and respective directors, officers, employees, and agents from and against all claims and expenses, including attorneys' fees, arising out of the use of the product by you or by anyone having access to the product by means of your account. 6.     termination. either you or fao may terminate this user agreement at any time, effective immediately, with or without prior notice to the other party. termination of this agreement automatically terminates your license to use the product and any content or other material contained therein. the provisions of section 3, 4, 6 and 7 shall survive any termination of this user agreement. 7.     governing law; disputes. this user agreement shall be governed by general principles of law, to the exclusion of any single national system of law. any dispute, controversy or claim arising under or pursuant to this user agreement shall be settled by mutual agreement. if fao and you are unable to reach agreement on any question in dispute, either party shall have the right to request arbitration in accordance with the arbitration rules of the united nations commission on international trade law. fao and you agree to be bound by any arbitration ruling rendered in accordance with the above, as the final adjudication of any such dispute. nothing contained in or related to this user agreement shall be deemed a waiver, express or implied, of the privileges and immunities of fao. 8.     miscellaneous. this user agreement and any fao policies relating to your operation and use of the product constitute the entire agreement and understanding between fao and you with respect to the subject matter hereof.  scroll down to read more scroll down to read more       terms and conditions of use                    please click on start course      to begin    ©fao 2023        lesson 2  the national forest monitoring system</slidetext>
+      <slidetext slideid="67yU783Gqi7.6kOYkcgkW3v" slidebank="false" type="slide"> image credits     any photos, images and trademarks used in this course are for non-profit, educational or identification purposes only. their use does not imply endorsement by fao. to re-use any materials, please refer to the original copyright holders for terms and conditions of use. all graphics and illustrations are ©fao except when otherwise specified. homepage:  ©fao/giulio napolitano           lesson 2: the national forest monitoring system lesson intro: slides 15/16: slide 19: slide 20: slide 21: slide 22: slide 23: slide 24: slide 25: slide 26: ©fao/joan manuel baliellas ©fao/olivier asselin ©wikimedia commons/photo by dwayne reilander /cc by 2.0 ©fao/noah seelam ©articulate ©fao/giulio napolitano ©flickr/photo by graham winterflood/cc by-sa 2.0 ©pixabay/photo by makalu ©fao/joan manuel baliellas ©un-redd programme </slidetext>
+      <slidetext slideid="5VDLpqNfCcb.5rEhQnEMZJ7" slidebank="false" type="slide">  30 minutes     the national forest monitoring system this lesson reviews the national forest monitoring system, its goals and scope. it also illustrates the principles that should inform a sustainable national forest monitoring system and describes, through real examples, the key guidance elements required to strengthen national forest monitoring capacities, increasing their transparency and long-term reliability.       lesson 2  1 / 27 text version   </slidetext>
+      <slidetext slideid="5VDLpqNfCcb.5g4THMJ8dDh" slidebank="false" type="slide">                                            learning objectives at the end of this lesson, you will be able to:                                                                                                                  2 / 27 lesson 2: the national forest monitoring system understand the foundation and concept of a national forest monitoring system (nfms);  identify the principles for building a sustainable nfms; and indicate the elements that guide the design and operation of a sustainable nfms.  i  i  i</slidetext>
+      <slidetext slideid="5VDLpqNfCcb.6UxoIPVszr4" slidebank="false" type="slide"> how has forest monitoring evolved in recent years?  the collection of information on changes in carbon pools other than above-ground biomass, as well as in the use of forest land, forests’ contribution to livelihoods and poverty reduction, and forest governance and broader land-use issues has become critical for national planning.    in the past  over the years  in recent years the objective was mainly to quantify and track timber stocks. countries have increasingly included the monitoring of key aspects of sustainable forest management, such as the role of forests in the conservation of biodiversity and the provision of other ecosystem services, such as clean water or erosion control.    introduction   3 / 27 lesson 2: the national forest monitoring system forests are important natural resources, which provide a multitude of ecosystem services essential to life. forest monitoring is critical for countries for the sustainable management of this resource. has evolved over time national forest monitoring (nfm) has been carried out for centuries, but the need for information relating to forests has grown in recent years, as well as awareness of and interest in the multitude of forest ecosystem services. national forest monitoring has evolved over time to respond to this, becoming increasingly multipurpose. is multipurpose for example, nfm can be aimed at obtaining information on existing tree species, on how people are using the forest, how forest area is changing, or how much carbon the forest is emitting into, or removing from the atmosphere. national forest monitoring:   how has forest monitoring evolved in recent years?  </slidetext>
+      <slidetext slideid="5VDLpqNfCcb.64uC9NDQNzo" slidebank="false" type="slide">national forest inventory and national forest monitoring   4 / 27 lesson 2: the national forest monitoring system before examining the principles and elements that should guide the planning and implementation of national forest monitoring, let's review some important definitions. in many countries, however, the term nfi is also traditionally used to describe the whole process of national forest monitoring.    nfm nfi         national forest inventory (nfi)   is commonly used to describe the technical process of data compilation and analysis of forest resources from a multitude of data sources, including field inventories and remote sensing, to estimate relevant forest characteristics at particular points in time. national forest monitoring (nfm)   is a comprehensive process that includes the systematic collection, analysis and dissemination of forest-related data and the derivation of information, usually from repeated inventories (of both remote-sensing and ground data) that allow forest changes and trends to be identified and quantified over time, together with the drivers of such changes and trends.</slidetext>
+      <slidetext slideid="5VDLpqNfCcb.6DKZ6LKJXw4" slidebank="false" type="slide">generally, an nfms is led by a governing body responsible for its conceptualization, planning and execution within a clear and well-defined mandate. national forest monitoring system   5 / 27 lesson 2: the national forest monitoring system to implement a monitoring process, peoples, institutions and resources are needed. all this constitutes the national forest monitoring system. the nfms has a direct link to policy, as it informs managers and decision-makers on the status and trends of forest resources, so that policies can be developed for their sustainable use and for the efficient conservation of forest ecosystems. accordingly, an nfms supports governments in fulfilling their obligations to continually develop, monitor and report on forest resources, which may include trees outside forests, as well as other land-cover classes. national forest monitoring system (nfms)         data policy     comprises the people, institutions and resources that implement national forest monitoring at country level, in collaboration with other stakeholders.     </slidetext>
+      <slidetext slideid="5VDLpqNfCcb.6GpD6jCB942" slidebank="false" type="slide"> your answer is correct. nfi is commonly used to describe the technical process of data collection and analysis of forest resources to estimate relevant forest characteristics at particular points in time. nfm is a comprehensive process that includes the systematic collection, analysis and dissemination of forest-related data that allows forest changes and trends to be identified and quantified over time. an nfms comprises the people, institutions and resources that implement national forest monitoring at country level.    the exercise is incomplete! please try again.  this is the correct answer. nfi is commonly used to describe the technical process of data collection and analysis of forest resources to estimate relevant forest characteristics at particular points in time. nfm is a comprehensive process that includes the systematic collection, analysis and dissemination of forest-related data that allows forest changes and trends to be identified and quantified over time. an nfms comprises the people, institutions and resources that implement national forest monitoring at country level. national forest monitoring system national forestmonitoring national forestinventory   sorry, your answer is either incomplete or only partially correct. please click on try again or view answer.  try again try again try again view answer view answer view answer   sorry, your answer is incorrect. please click on try again or view answer.  try again try again try again view answer view answer view answer      check answer check answer check answer peoples, institutions and resources involved in forest monitoring data collection and analysis of forest resources at one point in time data collection and analysis of forest resources over time    %drag01% %drag02% %drag03% %drag04% please drag and drop the terms into the corresponding box and click on check answer national forest monitoring system national forestinventory national forestmonitoring   what does each of these three forest-related terms refer to?    test your knowledge   6 / 27 lesson 2: the national forest monitoring system   </slidetext>
+      <slidetext slideid="5VDLpqNfCcb.6ag9Rjt2qW2" slidebank="false" type="slide">the aim of an nfms is to provide baseline data to enable the measurement of progress towards sustainable forest management.    the aim of an nfms is to generate reliable data to facilitate discussions and the development of agreements at international level and to submit regular reports.    the aim of an nfms is to generate reliable data to inform citizens and stakeholders about the status, characteristics, services and development of national forest.    data collected by the nfms are used to support the formulation, monitoring and adjustment of national and subnational-level policies related to forests and forested landscapes, including, increasingly, sustainable development and policies.     we contribute to international research on forests and forest management. we have used updated forest data to develop and adapt national and subnational forest policies and programmes.  we collect forest-related data to report on the achievement of sustainable forest management within the 2030 agenda. what is the aim of an nfms?                      7 / 27 lesson 2: the national forest monitoring system the aim of an nfms is to generate reliable data. click on each person to read the purpose for which forest-related data can be used our country strongly supports indigenous peoples living in forests. forest data provides them with information and resources to sustainably manage the forests they live in.         data   data    </slidetext>
+      <slidetext slideid="5VDLpqNfCcb.5uA1jo4pSlU" slidebank="false" type="slide"> nfms for redd+ under the unfccc a national forest monitoring system is one of the elements to be developed by developing country parties implementing redd+ activities (according to paragraph 71 of decision 1/cp.16). the cop recognized the importance and necessity of adequate and predictable financial and technology support for developing the national forest monitoring system.  the key to any functional measurement and reporting of forest carbon is reliable data of forest area and forest area changes. already in 2009, the cop adopted guidance on the establishment of robust and transparent national forest monitoring systems. depending on national circumstances, these systems may also be a result of combining subnational systems as part of national forest monitoring systems. as an interim measure, subnational monitoring and reporting can be implemented in accordance with a stepwise approach.      more information on redd+     nfms for redd+    what do we know about nfm worldwide?         more recent assessments of nfm and reporting capacities have been implemented in developing countries, particularly those with tropical forests. the total tropical forest area monitored with good to very good data on forest area change, including remote-sensing capacities, increased from 69 percent in fra 2005 to 84 percent in fra 2020. the total tropical forest area monitored with good to very good forest inventory capacities increased from 55 percent in fra 2005 to 85 percent in fra 2020.       however, the ability to measure carbon stocks in forests did not show as much improvement. the majority of tropical forest countries use default data, called tier 1 level reporting by the intergovernmental panel on climate change (ipcc). this indicates the need for greater emphasis on producing more accurate, country-specific emission factors (i.e. at tier 2 or tier 3 level). importantly, there is a need to improve the institutionalization of forest monitoring, including a better trust basis among those collaborating on forest monitoring.       source: mst karimon nesha, et al., environmental research letters, 2021  what do we know about nfm worldwide?   8 / 27 lesson 2: the national forest monitoring system increased recognition of the importance of the role of forests in climate change mitigation and adaptation has led to the development of nfms for measurement, reporting and verification (mrv) of redd+, which has resulted in an unprecedented increase in the availability and transparency of countries' forest-sector data and information. countries have made great improvements in their ability to monitor forests in recent years, but there is still some way to go before all forests are adequately monitored.     nfms for redd+ under the unfccc     more information    countries with good to very good use of national forest inventory (nfi)  more than doubled over the period from 48 countries in fra 2005 to 102 countries in fra 2020.                          </slidetext>
+      <slidetext slideid="5VDLpqNfCcb.5kATJuHsFjb" slidebank="false" type="slide"> the committee on forestry the committee on forestry (cofo) is the highest fao forestry statutory body. the biennial sessions of cofo bring together heads of forest services and other senior government officials to identify emerging policy and technical issues, seek solutions and advise fao and others on appropriate action. the vgnfm were requested by countries during the 21st session of cofo, held in september 2012.      voluntary guidelines on national forest monitoring   9 / 27 lesson 2: the national forest monitoring system establishing and running a sustainable nfms is a complex technical exercise and an organizational and institutional challenge. best practices and lessons learned from this support are summarized in fao’s voluntary guidelines on national forest monitoring (vgnfm), which were presented and endorsed at the committee on forestry (cofo) in 2016. the vgnfm is a technical reference for government bodies, research institutes, the private sector and civil society, and provides principles, elements and best practices. in the next few pages we will explore the principles and elements of nfm, as indicated by the voluntary guidelines. for decades, the food and agriculture organization of the united nations (fao) has been providing support to member countries on national forest monitoring. the vgnfm    </slidetext>
+      <slidetext slideid="5VDLpqNfCcb.6By5MjjrEb0" slidebank="false" type="slide"> principles for a sustainable nfms the vgnfm identify five groups of principles, all presented on this page. principle 14 collaboration at the international level collaboration in planning, implementing, analysing and ensuring the quality of different national forest monitoring systems constitutes an excellent means of knowledge exchange and avoiding common errors and pitfalls. in addition, it may also support national capacity-building.  governance governance   10 / 27 lesson 2: the national forest monitoring system    scope scope data data design design overall principles overall principles 13: credibility through transparency and quality   14: collaboration at the international level         principles for a sustainable nfms the vgnfm identify five groups of principles, all presented on this page. principle 13 credibility through transparency and quality: this implies that the results must be produced in a manner that is scientifically defensible, which means that each methodological and organizational step of the approach needs to be fully and transparently documented and justified.  governance governance   10 / 27 lesson 2: the national forest monitoring system    scope scope data data design design overall principles overall principles 13: credibility through transparency and quality   14: collaboration at the international level         principles for a sustainable nfms the vgnfm identify five groups of principles, all presented on this page. principle 12 a well-defined data and information-sharing policy: data and information produced by national forest monitoring systems are of interest to many different parties. they should be accessible to different users, either as original or aggregated data sets. this does not necessarily mean that public access is granted to a database, but that a clear data-sharing policy is formulated, to which national and international interested parties can refer.  governance governance   10 / 27 lesson 2: the national forest monitoring system   overall principles overall principles scope scope  data data design design      12: a well-defined data and information-sharing policy   principles for a sustainable nfms the vgnfm identify five groups of principles, all presented on this page. principle 11 feasibility including cost-efficiency: information provision including data collection, storage and analysis and operation of a permanently institutionalized forest-monitoring unit must be feasible and affordable, according to national circumstances.  governance governance   10 / 27 lesson 2: the national forest monitoring system   overall principles overall principles scope scope  design design   8: integration of and consistency with existing information sources    9: flexible approach 10: multi-purpose approach  11: feasibility including  cost-efficiency     data data       principles for a sustainable nfms the vgnfm identify five groups of principles, all presented on this page. principle 10 multipurpose approach:information and knowledge generated by national forest monitoring systems need to feed into and support national and international forest-related processes. in order to serve these processes, national forest monitoring systems need to be multipurpose.  governance governance   10 / 27 lesson 2: the national forest monitoring system   overall principles overall principles data data  scope scope design design   8: integration of and consistency with existing information sources    9: flexible approach 10: multi-purpose approach  11: feasibility including  cost-efficiency           principles for a sustainable nfms the vgnfm identify five groups of principles, all presented on this page. principle 9 flexible approach: the technical and organizational design of an nfms requires long-term efforts and must be able to integrate emerging issues and allow for periodic revisions.  governance governance   10 / 27 lesson 2: the national forest monitoring system   overall principles overall principles data data  scope scope design design   8: integration of and consistency with existing information sources    9: flexible approach 10: multi-purpose approach  11: feasibility including  cost-efficiency           principles for a sustainable nfms the vgnfm identify five groups of principles, all presented on this page. principle 8 integration of and consistency with existing information sources: national forest monitoring should not be considered a stand-alone initiative, but in best case scenarios an undertaking that interlinks with other national and subnational initiatives that generate national-level information.  governance governance   10 / 27 lesson 2: the national forest monitoring system   overall principles overall principles data data  scope scope design design   8: integration of and consistency with existing information sources    9: flexible approach 10: multi-purpose approach  11: feasibility including  cost-efficiency           principles for a sustainable nfms the vgnfm identify five groups of principles, all presented on this page. principle 7 satisfaction of national information needs: information needs regarding national forest and tree resources are manifold. accordingly, the consensus-oriented discussion process (principle 6) prepares the ground for a comprehensive identification of priority information needs at subnational and national level, while efficiently supporting international reporting commitments.  governance governance   10 / 27 lesson 2: the national forest monitoring system   6: participatory discussion process 7: satisfaction of national information needs   design design overall principles overall principles data data scope scope         principles for a sustainable nfms the vgnfm identify five groups of principles, all presented on this page. principle 6 participatory discussion process: national forest monitoring systems generate data and information on forests and trees at national level through a participatory discussion process among national stakeholders on the scope and objectives of forest monitoring.  governance governance   10 / 27 lesson 2: the national forest monitoring system   6: participatory discussion process 7: satisfaction of national information needs   design design overall principles overall principles data data scope scope         1: country ownership and responsibility 2: legal and policy basis  3: landscape view 4: institutionalization of nfm  5: research infrastructure and capacity building   principles for a sustainable nfms the vgnfm identify five groups of principles, all presented on this page.  principle 5 research infrastructure and capacity-building: any national survey requires appropriate national capacities and a research infrastructure in order to be successfully implemented under country ownership.  governance governance   10 / 27 lesson 2: the national forest monitoring system       scope scope design design overall principles overall principles data data      1: country ownership and responsibility 2: legal and policy basis  3: landscape view 4: institutionalization of nfm  5: research infrastructure and capacity building  principles for a sustainable nfms the vgnfm identify five groups of principles, all presented on this page.  principle 4 institutionalization of nfm: one of the distinct features of forestry is its long-term character, which consequently requires a long-term structure, implemented through a permanent institution.  governance governance   10 / 27 lesson 2: the national forest monitoring system       scope scope design design overall principles overall principles data data   1: country ownership and responsibility 2: legal and policy basis  3: landscape view 4: institutionalization of nfm  5: research infrastructure and capacity building   principles for a sustainable nfms the vgnfm identify five groups of principles, all presented on this page.  principle 3 landscape view: it is essential to look at forests as one component within a forested landscape.  governance governance   10 / 27 lesson 2: the national forest monitoring system       scope scope design design overall principles overall principles data data  1: country ownership and responsibility 2: legal and policy basis  3: landscape view 4: institutionalization of nfm  5: research infrastructure and capacity building   principles for a sustainable nfms the vgnfm identify five groups of principles, all presented on this page.  principle 2 legal and policy basis: in some contexts, it may be helpful to establish a legal basis for national forest monitoring, for example, by adding a corresponding paragraph to a national forest law, as well as related policy.  governance governance   10 / 27 lesson 2: the national forest monitoring system       scope scope design design overall principles overall principles data data  1: country ownership and responsibility 2: legal and policy basis  3: landscape view 4: institutionalization of nfm  5: research infrastructure and capacity building   principles for a sustainable nfms the vgnfm identify five groups of principles, all presented on this page.  principle 1 country ownership and responsibility: implementing a national forest monitoring system and generating a reliable database on forests and their uses is primarily a domestic issue.  governance governance   10 / 27 lesson 2: the national forest monitoring system     scope scope design design overall principles overall principles data data        governance governance scope scope design design overall principles overall principles data data principles for a sustainable nfms   10 / 27 lesson 2: the national forest monitoring system the vgnfm identify five groups of principles, all presented on this page. 1: country ownership and responsibility 2: legal and policy basis  3: landscape view 4: institutionalization of nfm  5: research infrastructure and capacity building  6: participatory discussion process 7: satisfaction of national information needs    8: integration of and consistency with existing information sources    9: flexible approach 10: multi-purpose approach  11: feasibility including  cost-efficiency  12: a well-defined data and information-sharing policy  13: credibility through transparency and quality   14: collaboration at the international level           click on each principle to learn more         </slidetext>
+      <slidetext slideid="5VDLpqNfCcb.5gZIAbpkR9U" slidebank="false" type="slide"> applying the principles 13: credibility through  transparency and quality   14: collaboration at the  international level                                                  governance governance          how to avoid this? you should consider these general principles       11 / 27 lesson 2: the national forest monitoring system scope scope design design data data overall principles overall principles  it is not clear who certifies the quality of national data on forests.     applying the principles 12: a well-defined data and information-sharing policy                                                           how to avoid this? you should consider this principle for data availability      11 / 27 lesson 2: the national forest monitoring system governance governance scope scope design design data data  national data are not available and accessible in a systematic and well-defined policy.     applying the principles   8: integration of and consistency with existing information sources    9: flexible approach 10: multipurpose approach  11: feasibility including cost-efficiency                                                           how to avoid this? you should consider these principles for data collection and analyses    governance governance   11 / 27 lesson 2: the national forest monitoring system scope scope design design  there has been no planning of the nfms and the entire system is currently of no use. have we made some mistakes in its design?     applying the principles 6: participatory discussion process 7: satisfaction of national information needs                                                        how to avoid this? you should consider these principles for the identification of information needs      11 / 27 lesson 2: the national forest monitoring system scope scope  we have not identified all possible stakeholders who may be interested in forest data, so we are not able to satisfy all the possible needs of forest-related data and information. governance governance         applying the principles 1: country ownership and responsibility 2: legal and policy basis  3: landscape view 4: institutionalization of nfm  5: research infrastructure and capacity-building                                                 governance governance           how to avoid this? you should consider these principles for the institutional settings and governance      11 / 27 lesson 2: the national forest monitoring system    forest monitoring activities have been implemented inconsistently over the years, due to lack of internal skills. applying the principles   11 / 27 lesson 2: the national forest monitoring system click on each pointer to review which principles the examples provided refer to if the nfms is not informed by these principles, its impact may be fragmented and ineffective, as you can read in the examples below.                                             forest monitoring activities have been implemented inconsistently over the years, due to lack of internal skills. we have not identified all possible stakeholders who may be interested in forest data, so we are not able to satisfy all the possible needs of forest-related data and information. there has been no planning of the nfms and the entire system is currently of no use. have we made some mistakes in its design? national data are not available and accessible in a systematic and well-defined policy. it is not clear who certifies the quality of national data on forests.                    </slidetext>
+      <slidetext slideid="5VDLpqNfCcb.6TDhK3VI0Tk" slidebank="false" type="slide"> sorry, your answer is incorrect. these are fao’s voluntary guidelines for governmental bodies in charge of forest monitoring, educational and research institutions, the public and private sector, and members of civil society concerned with national forest monitoring.    sorry, your answer is incorrect. the voluntary guidelines do not provide financial support to countries.      correct. the aim of the voluntary guidelines on national forest monitoring is to assist with the creation and operation of an nfms. the guidelines include good practice principles, guidelines and a general framework.   the voluntary guidelines on national forest monitoring:   provide a financial framework to support country forest monitoring activities. constitute a technical reference for the creation and operation of an nfms.           are established at national level by each country for its own nfms.        please select the answer of your choice   test your knowledge   12 / 27 lesson 2: the national forest monitoring system </slidetext>
+      <slidetext slideid="5VDLpqNfCcb.6RD9vPPVziv" slidebank="false" type="slide">  but i do not know if my country has established an nfms. as far as i am aware, monitoring activities have always been conducted by external organizations.  principles for a sustainable nfms if you are not informed about your country's national forest monitoring activities, this may be the right time to collect more information and understand if and how it has been implemented.    13 / 27 lesson 2: the national forest monitoring system now think about your country and the status of national forest monitoring activities. then, follow the checklist presented in the following pages to evaluate how much the nfms is informed by the principles suggested in the voluntary guidelines.  i would like to review how the nfms of my country has applied these principles.   </slidetext>
+      <slidetext slideid="5VDLpqNfCcb.60nnGmEw0qD" slidebank="false" type="slide">the colombian government aimed to develop a decree to regulate and articulate the forest and carbon monitoring system (f&amp;cms), the national forest inventory (nfi) and the national forest information system (nfis).  in december 2016, colombia drafted a first decree regulating the links between the f&amp;cms, nfi and nfis, taking into consideration each specificity and setting in place adequate interinstitutional mechanisms, as well as the legal and institutional framework mandated by law. accordingly, a road map has been developed to ensure the inclusion of relevant stakeholders. following this road map, the ministry of environment adopted the decree in 2017.  colombia      19 / 27 lesson 2: the national forest monitoring system  colombia these activities prepare the ground for subsequent technical implementation work. as such, they require careful planning and sufficient time, as you can read in the example about colombia. if carefully prepared, the foundation elements will play a key role in ensuring the operation and sustainability of the forest monitoring system. foundation elements   19 / 27 lesson 2: the national forest monitoring system  foundation elements   click on colombia on the map to see how national government strengthened its institutional arrangements for improved forest monitoring  </slidetext>
+      <slidetext slideid="5VDLpqNfCcb.6a1EUq0HMYt" slidebank="false" type="slide">impact assessment although not a standard component of an nfms as yet, it is recommended to plan a systematic impact assessment of the process itself. this helps to streamline improvement of the nfms and to analyse its overall usefulness. data management and archiving provisions need to be made for long-term data management to allow analyses to be repeated and time series to be built from inventories at earlier points in time.  integration of young experts being involved in an nfms offers excellent vocational training and educational opportunities for students and young experts in the early stages of their careers. they can engage in various functions to further develop their knowledge and expertise, not only of national forest monitoring, but also of the forest resources of their country.  communication and dissemination  proactive communication and dissemination is crucial to ensure that potentially interested stakeholders are adequately aware of the existence of the nfms. stakeholder identification and engagement the involvement of stakeholders may extend far beyond expectations stated during the information needs assessment. depending on their interest, representatives of stakeholder groups may be invited to or integrated into the strategic or technical planning of the nfms. identification of information needs the nfms should be demand-driven in line with a clearly stated and formally mandated mission. its objective should be to produce the best possible information within the given resource constraints. an information needs assessment process is a key step in identifying which information the nfms should produce on a regular basis.  mandate the implementation of an nfms requires a clear political mandate, which can only be issued by a government body. mandates also usually imply the definition of a vision, goals, targets and available resources, including budget, personnel and infrastructure. in some cases, legal regulations are also necessary.   strategic elements   20 / 27 lesson 2: the national forest monitoring system  strategic elements refer to organizational and planning actions for data collection activities within a national forest monitoring system.  these actions include:  strategic elements   mandate mandate mandate identification of information needs  identification of information needs  identification of information needs  stakeholder identification and engagement stakeholder identification and engagement stakeholder identification and engagement communication and dissemination communication and dissemination communication and dissemination integration of young experts integration of young experts integration of young experts data management and archiving  data management and archiving  data management and archiving  impact assessment impact assessment impact assessment click on each tab to learn more </slidetext>
+      <slidetext slideid="5VDLpqNfCcb.5hAu3wylYw5" slidebank="false" type="slide">in establishing its nfms, madagascar conducted a needs assessment. the nfms was developed in the context of redd+, but in order to be sustainable, an nfms should respond to broader national needs. a review was conducted of pre-existing data and capacities available, as well as a broad stakeholders consultation, involving the public sector, regional and international organizations, non-governmental organizations (ngos) and the private sector. based on the consultation, needs besides the requirements for redd+ were identified, such as harvestable timber and biodiversity, and the relevant required data for each need were defined, including periodicity and level of quality. in turn, the way in which all the data required to address the needs would be collected and stored was identified.  madagascar      21 / 27 lesson 2: the national forest monitoring system   strategic elements must be considered during the preparation and implementation of a national forest monitoring programme, but do not address detailed technical-scientific aspects, which are dealt with under operational elements. an example of how needs assessment can be conducted is presented in the case of madagascar. strategic elements   21 / 27 lesson 2: the national forest monitoring system click on madagascar on the map to read how an information needs assessment was conducted in that country   strategic elements    madagascar </slidetext>
+      <slidetext slideid="5VDLpqNfCcb.5tYox8xhAU0" slidebank="false" type="slide">data management, data analyses, documentation and reporting once the field data are collected, they must be safely and permanently stored to ensure that they are easily accessible for reference and further analyses. permanence of data availability is one of the constituent elements of an efficient nfms. operational design operational design refers to all activities involved in setting up fieldwork and the information management system of an nfms. it is indispensable for the successful implementation of the nfms. the elements of operational design relate to standard project planning, which requires skills in all issues related to project implementation, including human resources, communication and logistics. statistical design planning, definition and implementation of the scientific design can commence once the preparatory work and assessments are complete (the identified information needs, the set of variables to be observed derived from the expected products, and the available resources in terms of prior information, expertise and budget, which will define the framework within which detailed planning of the statistical design will take place).   preparation the preparatory steps of the nfms design focus on the operational and target-oriented definition of terms, the identification of variables to be observed to meet information needs and their subsequent prioritization, the definition of data sources to be accessed to observe these variables, including available information, and the assessment of available expertise and other country resources.   click on each tab to learn more   22 / 27 lesson 2: the national forest monitoring system   operational  elements   preparation preparation preparation statistical design statistical design statistical design operational design operational design operational design data management, analyses, documentation and reporting data management, analyses, documentation and reporting data management, analyses, documentation and reporting operational elements operational elements refer to actions for the optimization and definition of technical design elements. these actions include:</slidetext>
+      <slidetext slideid="5VDLpqNfCcb.5sQoGA5L2b1" slidebank="false" type="slide">as part of its nfms, in 2016 papua new guinea (png) established an online data portal that is publicly accessible, so as to ensure data transparency. png’s satellite land monitoring system combines wall-to-wall mapping with stratified sampling and uploads the information to its online data viewer, providing links to the original sources. the satellite land monitoring system is an important part of the nfms, enabling landscape-scale trends to be observed and the drivers to be identified. indeed, the same year, 2016, png launched its first national forest inventory, which was highly comprehensive, collecting data not only on trees but also on herbs, insects and birds. data from the nfms have already been used to report a forest reference level and a biennial update report to the unfccc. papua new guinea      23 / 27 lesson 2: the national forest monitoring system papua new guinea  in order to meet the technical goals of an nfms, it is necessary to define complex data acquisition and analysis strategies that will eventually lead to the desired products, as shown in the example of papua new guinea. operational elements   23 / 27 lesson 2: the national forest monitoring system  operationalelements   click on papua new guinea on the map to see how data management, analysis, documentation and reporting are organized </slidetext>
+      <slidetext slideid="5VDLpqNfCcb.6eY5K4j1SKP" slidebank="false" type="slide"> sorry, your answer is incorrect. please click on try again or view answer. try again try again try again view answer view answer view answer    the exercise is incomplete! please try again.  correct. these elements need to be clearly defined in the mandate of the nfms. identification of field data collection and of a data policy are other important strategic elements to be considered, but not within the nfms mandate. you can learn more from the voluntary guidelines on national forest monitoring.     this is the correct answer. these elements need to be clearly defined in the mandate of the nfms. identification of field data collection and of a data policy are other important strategic elements to be considered, but not within the nfms mandate. you can learn more from the voluntary guidelines on national forest monitoring.                 sorry, your answer is either incomplete or only partially correct. please click on try again or view answer.  try again try again try again view answer view answer view answer check answer check answer check answer please select the answer(s) of your choice and click on check answer the human, financing, infrastructure resources on which the nfms can rely  the human, financing, infrastructure resources on which the nfms can rely  the scope, goals and targets of the nfms the scope, goals and targets of the nfms a clear designation of responsibilities for the entities comprising the nfms a data policy field data collection                     %manswercorrect% %manswerincorrect%     test your knowledge      24 / 27 lesson 2: national forest monitoring system the elements examined so far define a variety of planning issues for an nfms. among them is the definition of a clear mandate for the nfms.  which of the following elements do you think should be included in this mandate?   </slidetext>
+      <slidetext slideid="5VDLpqNfCcb.6GLED2NmQw8" slidebank="false" type="slide"> sorry, your answer is incorrect. an nfms is institutionalized within a country, not shared at international level.      your answer is correct. establishing and running an nfms requires long preparation and planning. it cannot be implemented at once, but needs a step-by-step approach, with continuous enhancement.   requires careful preparation and planning cannot be organized at national level, but requires international cooperation              please select the answer of your choice  the complexity of foundation, strategic and operational elements examined so far shows how establishing an nfms:    test your knowledge   25 / 27 lesson 2: the national forest monitoring system</slidetext>
+      <slidetext slideid="5VDLpqNfCcb.5YCREGmfXiY" slidebank="false" type="slide">      the nfms assessment tool fao’s new nfms assessment tool can help in the task of  identifying needs and gaps in order to establish or strengthen a country’s nfms.  the tool is based on fao’s voluntary guidelines on national forest monitoring (vgnfm), reinforced with the reddcompass resources of the global forest observation initiative (gfoi). the tool is free, excel-based and available in english, french and spanish by clicking on the link below:    nfms assessment tool   quick guidance        principles and elements of a sustainable nfms   26 / 27 lesson 2: the national forest monitoring system typically, an nfms requires a long-term vision and interdisciplinary collaboration, and should inform the principles and include the elements reviewed in this lesson. these are schematically presented in this diagram.  they refer to a variety of planning issues, some of which are technical in nature, while others are organizational or strategic.  the overall aim is to provide detailed and comprehensive guidance for establishing a sustainable nfms.   zoom   the nfms assessment tool  </slidetext>
+      <slidetext slideid="5VDLpqNfCcb.69S86wkuqob" slidebank="false" type="slide"> national forest monitoring is a comprehensive process that includes the systematic collection, analysis and dissemination of forest-related data and the derivation of information to identify forest changes and trends over time. a national forest monitoring system indicates the people, institutions and resources that implement national forest monitoring.  achieving a sustainable nfms is challenging.  the fao’s voluntary guidelines on national forest monitoring (vgnfm) are a technical reference for countries and other different stakeholders interested in establishing or implementing a multipurpose nfms. the vgnfm provide principles, elements and guidelines that help to achieve a sustainable nfms. summary   27 / 27 lesson 2: the national forest monitoring system</slidetext>
+      <slidetext slideid="5VDLpqNfCcb.6XP58f6DQHU" slidebank="false" type="slide"> cross-cutting issues issues such as gender and equity cut across all the principles reviewed so far. governance governance scope scope design design data data overall principles overall principles   15 / 27 lesson 2: the national forest monitoring system an nfms should take account of gender equity and fair representation of minority groups, such as local communities and indigenous peoples.  a fully functioning nfms that integrates a gender approach will enable countries to respond to their own multipurpose national data needs on forests, while also ensuring that it captures the perspectives and knowledge of women and men who depend on such forests for their livelihood.   gender</slidetext>
+      <slidetext slideid="5VDLpqNfCcb.6EoUR17DHgX" slidebank="false" type="slide">  16 / 27 lesson 2: the national forest monitoring system gender gender data data publicly available information promotes more equitable access to forest resources principle 12: a well-defined data and information-sharing policy      16 / 27 lesson 2: the national forest monitoring system gender gender design design social sectors may want to use the data to understand issues of equity and to plan interventions principle 9: flexible approaches  socio-economic surveys on women can be included in data collection processes and some data can be gender-disaggregated principle 10: multipurpose approach       16 / 27 lesson 2: the national forest monitoring system gender gender scope scope include civil society and other grassroots women’s organizations, as well as government authorities related to gender.  a participatory discussion process involving women's groups could be used to define (gender-related) data needs through a consultative information needs assessment process, ensuring that women's needs are addressed, as well as those of men. principle 6: participatory discussion process  include sex-disaggregated data on forest use and socio-economic information principle 7: satisfaction of national information needs    gender gender governance governance   16 / 27 lesson 2: the national forest monitoring system   engage with the national ministry responsible for gender issues include gender as a key information need as part of a wider socio-economic mandate what are the different roles of women and men in shaping the landscape?  what are the differences in how men and women depend on the landscape? structures should welcome women as well as men, especially in professional and decision-making positions ensure that women are also included or encouraged to participate in the capacity-builiding activities.  principle 2: legal and policy basis   principle 3: landscape view  principle 4: institutionalization of nfm   principle 5: research infrastructure and capacity-building  principle 1: country ownership and responsibility  cross-cutting issues   16 / 27 lesson 2: the national forest monitoring system the vgnfm draw attention to the importance of gender in forest monitoring and provide a useful list of potential entry points. governance governance scope scope design design data data click on the above tabs to see how the principles of the vgnfm can integrate a gender approach   gender    </slidetext>
+      <slidetext slideid="5VDLpqNfCcb.6j4OVzgRNSD" slidebank="false" type="slide">foundation elements refer to the organizational and technical framework conditions within which an nfms is implemented.  elements for a sustainable nfms   17 / 27 lesson 2: the national forest monitoring system while the principles of an nfms are the general guidelines or ideals which, if followed, would make it sustainable, the elements are what is actually needed to implement an nfms. the specific goals or framework conditions of different nfms may focus more on some elements and less on others.  there are three type of element:  foundation elements   strategic elements refer to organizational and planning actions for data collection activities within a national forest monitoring system.   strategic elements   operational elements refer to actions for the optimization and definition of technical design elements of field and remote-sensing data collection and analysis.  operationalelements  </slidetext>
+      <slidetext slideid="5VDLpqNfCcb.66AT41UtNRl" slidebank="false" type="slide">strengthening research and research institutions in forest monitoring the planning and successful long-term implementation of an nfms requires accompanying research in all cases, albeit to a varying degree. generic research questions include how to optimize technical design elements of forest inventories, the development of locally-specific models to predict biomass or carbon stocks, and the development of optimal remote-sensing analysis approaches. developing partnerships and collaboration more and more countries are implementing full national forest monitoring systems, providing excellent opportunities for international and regional collaboration and the sharing of experiences regarding planning, implementation, analyses, capacity-building, technical expertise and lessons learned - both success stories and failures. networks may be actively developed in all fields relevant to forest monitoring. developing national capacities national ownership and sustainability of an nfms depend on institutional capacities to meet the forest information needs of users. this calls for continuous strengthening of human capacities in the technical fields of forest monitoring, programme management, administration and operation. institutionalization institutionalization means that the nfms is formally, firmly and permanently embedded within a country’s administration - usually the forest administration.  click on each tab to learn more foundation elements   18 / 27 lesson 2: the national forest monitoring system foundation elements refer to the organizational and technical framework conditions within which an nfms is implemented. they include activities such as:    foundation elements   the institutionalization of the nfms the institutionalization of the nfms the institutionalization of the nfms developing national capacity  developing national capacity  developing national capacity  developing partnerships and collaboration  developing partnerships and collaboration  developing partnerships and collaboration  strengthening research and research institutions in forest monitoring  strengthening research and research institutions in forest monitoring  strengthening research and research institutions in forest monitoring </slidetext>
+      <slidetext slideid="5VDLpqNfCcb.5cCGJVkyMbW" slidebank="false" type="slide">   if you select continue, you will not complete the questionnaire and will move on to the next section! to complete the questionnaire, click on the close button and use the white arrow       on the blue bar to move forward. continue  close     research is necessary to ensure that the nfms methodology responds to information needs; capacity-building is necessary to ensure that available skills and the nfms are well matched. 5. research infrastructure and capacity-building countries should consider this principle   research is necessary to ensure that the nfms methodology responds to information needs; capacity-building is necessary to ensure that available skills and the nfms are well matched. 5. research infrastructure and capacity-building institutionalization can help to ensure the long-term availability of the data collected and the expertise needed for an nfms. 4. institutionalization of nfm countries should consider this principle   institutionalization can help to ensure the long-term availability of the data collected and the expertise needed for an nfms. 4. institutionalization of nfm appreciating that forests are not stand-alone entities, but part of the whole landscape of a country and beyond, can greatly improve the understanding of forest and forest change and a host of related information, such as drivers and opportunities. 3. landscape view countries should consider this principle   appreciating that forests are not stand-alone entities, but part of the whole landscape of a country and beyond, can greatly improve the understanding of forest and forest change and a host of related information, such as drivers and opportunities. 3. landscape view having a legal basis for an nfms can support its sustainability, and help with institutionalization, implementation and collaboration. 2. legal and policy basis countries should consider this principle   having a legal basis for an nfms can support its sustainability, and help with institutionalization, implementation and collaboration. 2. legal and policy basis it is essential for the sustainability of an nfms that it is useful, usable and owned by the country itself, as opposed to short-term projects carried out mainly by international agencies and donors, with little attention paid to engaging the national government.  ownership may or may not be codified in law. 1. country ownership and responsibility countries should consider this principle   it is essential for the sustainability of an nfms that it is useful, usable and owned by the country itself, as opposed to short-term projects carried out mainly by international agencies and donors, with little attention paid to engaging the national government.  ownership may or may not be codified in law. 1. country ownership and responsibility  principles for a sustainable nfms   14 / 27 lesson 2: the national forest monitoring system is the nfms compliant with the five groups of principles indicated in the voluntary guidelines? answer the questions below related to the governance principles, and then work through the following pages for the other principles.    1) is based on country ownership? 2) is founded in/on national law? 3) is considered as a component of landscape monitoring? 4) is built on existing national institutions and existing national capacities? 5) collaborates with several research institutes (universities, national agencies)?      please select the answers of your choicefor each question and use the arrows    on the blue bar to move through the questionnaire. once you have completed it, you will see the results. governance governance scope scope design design overall principles overall principles data data                                                         your current nfm:    </slidetext>
+      <slidetext slideid="5VDLpqNfCcb.6C0WcLpQAFt" slidebank="false" type="slide"> the questionnaire is not complete and you won't be able to see the results. click on the close button to complete all questions or select continue to move to the next section of the lesson. continue  close    the nfms must ensure this, but, in order to do so, a balance must be struck between costs, feasibility, the needs of different interest groups and existing information and methods. 7. satisfaction of national information needs countries should consider this principle   the nfms must ensure this, but, in order to do so, a balance must be struck between costs, feasibility, the needs of different interest groups and existing information and methods. 7. satisfaction of national information needs it is essential to ensure that the nfms responds to needs and meets expectations, and is well planned. planning of the scope and objectives of the national forest monitoring system should be an inclusive process. while usually driven by experienced experts, it needs to be inclusive of interested parties. 6. participatory discussion process countries should consider this principle   it is essential to ensure that the nfms responds to needs and meets expectations, and is well planned. planning of the scope and objectives of the national forest monitoring system should be an inclusive process. while usually driven by experienced experts, it needs to be inclusive of interested parties. 6. participatory discussion process  principles for a sustainable nfms   14 / 27 lesson 2: the national forest monitoring system the second group of principles refers to the identification of information needs. has your country considered these principles?    6) involves extensive and continuous stakeholder consultation? 7) has identified priority information needs at subnational and national levels, and supports international reporting commitments? please select the answers of your choice     governance governance scope scope design design overall principles overall principles data data                     your current nfm:        </slidetext>
+      <slidetext slideid="5VDLpqNfCcb.66HKdKz47EH" slidebank="false" type="slide"> the questionnaire is not complete and you won't be able to see the results. click on the close button to complete all questions or select continue to move to the next section of the lesson. continue  close    countries should consider this principle   collecting and storing data requires money, so an nfms should be affordable and feasible, to ensure that it persists in the long term. 11. feasibility including cost-efficiency  collecting and storing data requires money, so an nfms should be affordable and feasible, to ensure that it persists in the long term. 11. feasibility including cost-efficiency  countries should consider this principle   an nfms can serve various purposes, and should be designed to ensure that this is the case. 10. multipurpose approach  an nfms can serve various purposes, and should be designed to ensure that this is the case. 10. multipurpose approach  countries should consider this principle   future information needs cannot be foreseen, so an nfms should be designed to be flexible. the need for an nfms to respond to climate change has only emerged in the past 30 years or so; yet this need is now very significant - illustrating why flexibility is important 9. flexible approach future information needs cannot be foreseen, so an nfms should be designed to be flexible. the need for an nfms to respond to climate change has only emerged in the past 30 years or so; yet this need is now very significant - illustrating why flexibility is important. 9. flexible approach countries should consider this principle   an nfms is more useful if, rather than being seen as a stand-alone activity, it is integrated with existing data collection systems and sources. 8. integration of and consistency with existing information sources  an nfms is more useful if, rather than being seen as a stand-alone activity, it is integrated with existing data collection systems and sources. 8. integration of and consistency with existing information sources   principles for a sustainable nfms   14 / 27 lesson 2: the national forest monitoring system design principles refer to data collection and analyses. do you think the current nfms is compliant with this group of principles?    8) interlinks with other national and subnational initiatives that generate national level information? 9) has developed, adjusted and integrated emerging issues? 10) is useful and used for a variety of purposes? 11) is feasible and follows approaches that are financially affordable? please select the answers of your choice     governance governance scope scope design design overall principles overall principles data data                                           your current nfm:        </slidetext>
+      <slidetext slideid="5VDLpqNfCcb.5YcEwuu5xPD" slidebank="false" type="slide"> the questionnaire is not complete and you won't be able to see the results. click on the close button to complete all questions or select continue to move to the next section of the lesson. continue  close    countries should consider this principle   international collaboration allows the sharing of skills and the lessons learned from successes and failures. it should be complemented by collaboration at national level between all interested parties. 14. collaboration at international level international collaboration allows the sharing of skills and the lessons learned from successes and failures. it should be complemented by collaboration at national level between all interested parties. 14. collaboration at international level countries should consider this principle   credibility of the results of an nfms relies on them being scientifically defensible. for this reason, the methodology must be transparently documented. 13. credibility through transparency and quality  credibility of the results of an nfms relies on them being scientifically defensible. for this reason, the methodology must be transparently documented. 13. credibility through transparency and quality     principles for a sustainable nfms   14 / 27 lesson 2: the national forest monitoring system governance principles refer to institutional settings and governance.  your current nfm:    13) has a clearly documented and publicly available methodology for every step of the process? 14) collaborates at national and international level? please select the answers of your choice     governance governance scope scope design design overall principles overall principles data data                     results        </slidetext>
+      <slidetext slideid="5VDLpqNfCcb.5tRq0aT57sg" slidebank="false" type="slide"> you did not answer all the questions. go back to the start and complete the questionnaire.  you did not select any answers. go back to the start and begin the questionnaire.  if the majority of your answers are marked with a green tick, your country’s nfms is on the right path. if not, you now know which principles to strengthen.                                                          principles for a sustainable nfms   14 / 27 lesson 2: the national forest monitoring system           1 2 3 4 5 governance governance scope scope design design overall principles overall principles data data 6 7 8 9 10 11 12 13 14   - - - - - - - - - - - - - -</slidetext>
+      <slidetext slideid="5VDLpqNfCcb.6cGzIkzG845" slidebank="false" type="slide"> the questionnaire is not complete and you won't be able to see the results. click on the close button to complete all questions or select continue to move to the next section of the lesson. continue  close    countries should consider this principle   data are valuable, and sharing policies should be clear and accessible for reference. 12. a well-defined data and information-sharing policy data are valuable, and sharing policies should be clear and accessible for reference. 12. a well-defined data and information-sharing policy  principles for a sustainable nfms   14 / 27 lesson 2: the national forest monitoring system governance principles refer to institutional settings and governance.     12) has defined a data policy that regulates access to national forest monitoring data sets and subsets? please select the answer of your choice    governance governance scope scope design design overall principles overall principles data data           your current nfm:        </slidetext>
+    </search>
+  </nav_data>
+  <resource_data description="&lt;p align='left'&gt;&lt;font face='Noto Sans' style='font-size: 11px;' size='11' color='#FFFFFF'&gt;&lt;/font&gt;&lt;/p&gt;">
+    <resources>
+      <resource url="story_content/external_files/United_Nations_Framework_Convention_on_Climate_Change.pdf" image="story_content/6O5JXDoCZNn.png" title="United Nations Framework Convention on Climate Change" />
+      <resource url="story_content/external_files/Kyoto_Protocol_to_the_United_Nations_Framework_Convention_on_Climate_Change.pdf" image="story_content/5vT01yNbOX7.png" title="Kyoto Protocol to the United Nations Framework Convention on Climate Change" />
+      <resource url="story_content/external_files/english_paris_agreement.pdf" image="story_content/5uS5kVX5vAJ.png" title="The Paris Agreement" />
+      <resource url="story_content/external_files/CMA2018_03a02E.pdf" image="story_content/61bt8F2hgXd.png" title="Decision 18/CMA.1 " />
+      <resource url="story_content/external_files/CMA2021_L10a2E.pdf" image="story_content/61SZZz3qU8r.png" title="Decision 5/CMA.3" />
+      <resource url="story_content/external_files/i8661en.pdf" image="story_content/6MrqyIBuGWA.png" title="Global Forest Resources Assessment 2020 – Terms and definitions" />
+      <resource url="story_content/external_files/CA6483EN.pdf" image="story_content/6Sn2IhN7HdI.png" title="Advancing the forest and water nexus" />
+      <resource url="story_content/external_files/ca4293en.pdf" image="story_content/5sT0rV36zUP.png" title="FAO’s work with indigenous peoples in forestry" />
+      <resource url="story_content/external_files/cb2953en.pdf" image="story_content/6npdo8MTAEC.png" title="Forest governance by indigenous and tribal peoples" />
+      <resource url="story_content/external_files/cc2899en.pdf" image="story_content/6pyBmVOHyTP.png" title="From reference levels to results reporting: REDD+ reporting by countries - 2022 update" />
+      <resource url="story_content/external_files/CA0525EN.pdf" image="story_content/6iW1ZrNeq0C.png" title="Strengthening National Forest Monitoring Systems for REDD+" />
+      <resource url="story_content/external_files/a-i6767e.pdf" image="story_content/5sjfTK3Sm2u.png" title="Voluntary guidelines on national forest monitoring" />
+      <resource url="story_content/external_files/ca2754fr.pdf" image="story_content/5etda0DJWgW.png" title="&amp;#201;valuation des besoins li&amp;#233;s &amp;#224; la mise en place d’un Syst&amp;#232;me National de Surveillance des For&amp;#234;ts (SNSF) &amp;#224; Madagascar en vue de la pr&amp;#233;paration du pays &amp;#224; la REDD+" />
+      <resource url="story_content/external_files/GlobalForestResourcesAssessment2020_KeyFindings.pdf" image="story_content/6dKhm6stHrR.png" title="Global Forest Resources Assessment 2020 – Key findings  " />
+      <resource url="story_content/external_files/CA8642EN.pdf" image="story_content/6ZrtLtepQni.png" title="The State of the World&amp;#39;s Forests - 2020" />
+      <resource url="story_content/external_files/cb9360en.pdf" image="story_content/5kLXfkPCFXs.png" title="The State of the World&amp;#39;s Forests - 2022" />
+      <resource url="story_content/external_files/nfms_tool_v2_20Sept_FINAL.xlsx" image="story_content/665vARVrfa3.png" title="NFMS Assessment Tool" />
+      <resource url="story_content/external_files/ca8618en_case_study_Costa_Rica.pdf" image="story_content/6VWEz9P770b.png" title="Case Study - Costa Rica" />
+      <resource url="story_content/external_files/CB0702EN_case_study_DRC.pdf" image="story_content/6hc9vcRJrMq.png" title="Case Study - DRC" />
+      <resource url="story_content/external_files/cb1912en_case_study_Bangladesh.pdf" image="story_content/5VJ46o2gEeU.png" title="Case Study - Bangladesh" />
+      <resource url="story_content/external_files/CHILE_En_REV00_updated.pdf" image="story_content/6FNy93stpeT.png" title="Case Study - Chile" />
+      <resource url="story_content/external_files/cb4911en.pdf" image="story_content/6Gxke5yQaXT.png" title="Case Study - Papua New Guinea" />
+      <resource url="story_content/external_files/cb4778en.pdf" image="story_content/6ZjEFiBCVMD.png" title="Case Study - Ghana" />
+      <resource url="story_content/external_files/CB0988EN_NFMS_Quick_Guidance.pdf" image="story_content/5n7C48336IA.png" title="NFMS Quick Guidance" />
+      <resource url="story_content/external_files/cb3525en.pdf" image="story_content/5allfmNSYx5.png" title="Permanently institutionalized NFMS" />
+    </resources>
+  </resource_data>
+  <transcript_data />
+  <glossary_data>
+    <terms>
+      <term title="Activity data">Data on the magnitude of a human activity resulting in emissions or removals taking place during a given period of time. Data on energy use, metal production, land areas, management systems, lime and fertilizer use and waste arisings are examples of activity data.</term>
+      <term title="Adaptation">In human systems, the process of adjustment to actual or expected climate and its effects, in order to moderate harm or exploit beneficial opportunities. In natural systems, the process of adjustment to actual climate and its effects; human intervention may facilitate adjustment to expected climate and its effects.</term>
+      <term title="AFOLU">In the context of national greenhouse gas (GHG) inventories under the United Nations Convention on Climate Change (UNFCCC), AFOLU is the sum of the GHG Inventory sectors Agriculture and Land Use, Land-Use Change and Forestry (LULUCF).</term>
+      <term title="Anthropogenic">Resulting from or produced by human activities. </term>
+      <term title="Boreal forest ">Is a homogeneous, circumpolar vegetation belt with temperature being the most influential environmental factor determining its geographical location.</term>
+      <term title="Carbon cycle">The flow of carbon (in various forms, e.g. as carbon dioxide, carbon inbiomass, and carbon dissolved in the ocean as carbonate and bicarbonate) through the atmosphere, hydrosphere, terrestrial and marine biosphere and lithosphere.</term>
+      <term title="Carbon dioxide ">A naturally occurring gas, CO2 is also a by-product of burning fossil fuels (such as oil, gas and coal), of burning biomass, of land-use changes and of industrial processes (e.g. cement production). It is the principal anthropogenic greenhouse gas that affects the Earth’s radiative balance. It is the reference gas against which other GHGs are measured and therefore has a Global Warming Potential of 1.</term>
+      <term title="Climate change">A change in the state of the climate that can be identified (e.g. by using statistical tests) by changes in the mean and/ or the variability of its properties and that persists for an extended period, typically decades or longer. Climate change may be due to natural internal processes or external forcings such as modulations of the solar cycles, volcanic eruptions and persistent anthropogenic changes in the composition of the atmosphere or in land use.</term>
+      <term title="CO2-equivalent (CO2-eq) emission">The amount of carbon dioxide (CO2) emission that would cause the same integrated radiative forcing or temperature change, over a given time horizon, as an emitted amount of a greenhouse gas or a mixture of GHGs. There are a number of ways to compute such equivalent emissions and choose appropriate time horizons. Most typically, the CO2- equivalent emission is obtained by multiplying the emission of a GHG by its Global Warming Potential for a 100-year time horizon. For a mix of GHGs, it is obtained by summing the CO2-equivalent emissions of each gas. CO2-equivalent emission is a common scale for comparing emissions of different GHGs, but does not imply equivalence of the corresponding climate change responses. There is generally no connection between CO2-equivalent emissions and resulting CO2-equivalent concentrations.</term>
+      <term title="Conference of the Parties (COP)">The supreme body of UN conventions, such as the United Nations Framework Convention on Climate Change, comprising parties with a right to vote that have ratified or acceded to the convention.</term>
+      <term title="Country Parties">A Party is a state (or regional economic integration organization such as the European Union) that agrees to be bound by a treaty and for which the treaty has entered into force (UNFCCC definition). In this course, when we refer to country Parties, we refer to Parties to the United Nations Framework Convention on Climate Change (or the subset of those that are Party to the Paris Agreement, depending on the context). Nearly every country is Party to the UNFCCC – all 197 UN member states are. It is important to note that for ease of reference in this course, we have referred to developing and developed countries rather than non-Annex I and Annex I respectively, although these terms are not exactly interchangeable.</term>
+      <term title="Country-specific data">Data for either activities or emissions that are based on research carried out on sites, either in that country or otherwise representative of that country.</term>
+      <term title="Deforestation">Conversion of forest to non-forest (IPCC, 2019; UNFCCC, glossary). </term>
+      <term title="Ecosystem services">Ecological processes or functions having monetary or non-monetary value to individuals or society at large. These are frequently classified as:(1) supporting services such as productivity or biodiversity maintenance; (2) provisioning services such as food or fibre; (3) regulating services such as climate regulation or carbon sequestration; and (4) cultural services, such as tourism or spiritual and aesthetic appreciation.</term>
+      <term title="Emission factors">A coefficient that quantifies the emissions or removals of a gas per unit activity. Emission factors are often based on a sample of measurement data, averaged to develop a representative rate of emission for a given activity level under a given set of operating conditions.</term>
+      <term title="Forest">Land spanning more than 0.5 hectares with trees higher than 5 meters and a canopy cover of more than 10 percent, or trees able to reach these thresholds in situ. It does not include land that is predominantly under agricultural or urban land use. </term>
+      <term title="Forest degradation">Is when carbon stocks of forests are reduced, without forest area decreasing – for example trees are not felled, but the undergrowth and lower branches of trees are removed. FAO defines forest degradation as the long-term reduction of the overall potential supply of benefits from the forest, which includes carbon, wood, biodiversity and other goods and services. The IPCC and International Tropical Timber Organization use the following definition: a direct human-induced loss of forest values (particularly carbon), likely to be characterized by a reduction of tree crown cover. Routine management from which crown cover will recover within the normal cycle of forest management operations is not included (FAO, 2003).</term>
+      <term title="Forest level">Reference levels (forest reference emission level and/or forest reference level) serve as benchmarks for assessing each country’s performance in implementing REDD+ activities. Reference levels need to maintain consistency with the country’s greenhouse gas inventory estimates (UNFCCC REDD+).</term>
+      <term title="Gender equality">Women and men, girls and boys have equal conditions, treatment and  opportunities for realizing their full potential, human rights and dignity, and for contributing to (and benefiting from) economic, social, cultural and political development (FAO Term).</term>
+      <term title="Greenhouse gas ">Gaseous constituents of the atmosphere, both natural and anthropogenic, that absorb and emit radiation at specific wavelengths within the spectrum of terrestrial radiation emitted by the Earth’s surface, the atmosphere itself, and by clouds. This property causes the greenhouse effect. Water vapour, carbon dioxide, nitrous oxide, methane and ozone re the primary GHGs in the Earth’s atmosphere. Moreover, there are a number of entirely human-made GHGs in the atmosphere, such as the halocarbons and other chlorine- and bromine-containing substances, dealt with under the Montreal Protocol. Beside CO2, N2O and CH4, the Kyoto Protocol deals with the GHGs sulphur hexafluoride (SF6), hydrofluorocarbons (HFCs) and perfluorocarbons (PFCs).</term>
+      <term title="Kyoto Protocol">The Kyoto Protocol to the United Nations Framework Convention on Climate Change (UNFCCC) is an international treaty adopted in December 1997 in Kyoto, Japan, at the Third Session of the Conference of the Parties (COP3) to the UNFCCC. It contains legally binding commitments, in addition to those included in the UNFCCC. Countries included in Annex B of the Protocol (mostly OECD countries and countries with economies in transition) agreed to reduce their anthropogenic greenhouse gas emissions (carbon dioxide methane), nitrous oxide, (hydrofluorocarbons, perfluorocarbons (PFCs) and sulphurhexafluoride by at least 5 percent below 1990 levels in the first commitment period (2008–2012).</term>
+      <term title="Mangroves">Mangroves are plants of more than 110 different species, including trees, shrubs, palms and ferns. They grow in the tropics and subtropics in saline intertidal coastal habitats, such as estuaries and shorelines. These species are physiologically adapted to overcome the problems of anoxia, high salinity and frequent tidal inundation (FAO, 2007).</term>
+      <term title="Measurement, Reporting and Verification ">Measurement, Reporting and Verification (MRV) 
+Measurement
+The process of data collection over time, providing basic data sets, including associated accuracy and precision, for the range of relevant variables. Possible data sources are field measurements, field observations, detection through remote sensing and interviews (UN REDD, 2009).
+Reporting
+The process of formal reporting of assessment results to the UNFCCC, according to predetermined formats and according to established standards, especially the Intergovernmental Panel on Climate Change (IPCC) Guidelines and GPG (Good Practice Guidance) (UN REDD, 2009). 
+Verification
+The process of formal verification of reports, for example, the established approach to verify national communications and national inventory reports to the UNFCCC (UN REDD, 2009).</term>
+      <term title="Mitigation">A human intervention to reduce emissions or enhance the sinks of greenhouse gases.</term>
+      <term title="MRV for REDD+">MRV for REDD+ is a two-step process: first, there is a technical assessment of the proposed forest reference emission level and/or forest reference level (FREL). Second, the actual results compared with the assessed FREL are submitted in a technical annex to the Biennial Update Report of a developing country Party seeking to obtain and receive payments for results-based actions, and these results undergo a separate technical analysis (UNFCCC REDD+).</term>
+      <term title="National forest inventory ">A national forest inventory (NFI) is commonly used to describe the technical process of data compilation and analysis of forest resources from a multitude of data sources, including field inventories and remote sensing, to estimate relevant forest characteristics at particular points in time.</term>
+      <term title="National forest monitoring ">National forest monitoring (NFM) is a comprehensive process that includes the systematic collection, analysis and dissemination of forest-related data and the derivation of information, usually from repeated inventories (of both remote-sensing and ground data) that allow forest changes and trends to be identified and quantified over time, as well as the drivers of such changes and trends.</term>
+      <term title="National Forest Monitoring System">A National Forest Monitoring System (NFMS) comprises the people, institutions and resources that implement national forest monitoring at country level in collaboration with other stakeholders.</term>
+      <term title="National strategy or action plan">A national strategy or action plan is one of the elements to be developed by developing country Parties implementing REDD+ activities (according to paragraph 71 of decision 1/CP.16). This national strategy or action plan is highly dependent upon national circumstances (UNFCCC REDD+).</term>
+      <term title="Nationally Determined Contributions ">The term Nationally Determined Contributions (NDCs) is used under the United Nations Framework Convention on Climate Change, whereby a country that has joined the Paris Agreement outlines its plans for reducing its emissions. Some countries’ NDCs also address how they will adapt to climate change impacts, and what support they need from, or will provide to, other countries to adopt low-carbon pathways and to build climate resilience. According to Article 4 paragraph 2 of the Paris Agreement, each Party shall prepare, communicate and maintain successive NDCs that it intends to achieve. In the lead up to the 21st Conference of the Parties in Paris in 2015, countries submitted Intended Nationally Determined Contributions (INDCs). As countries join the Paris Agreement, unless they decide otherwise, this INDC becomes their first Nationally Determined Contribution (NDC).</term>
+      <term title="Paris Agreement">The Paris Agreement under the United Nations Framework Convention on Climate Change (UNFCCC) was adopted on December 2015 in Paris, France, at the 21st session of the Conference of the Parties (COP) to the UNFCCC. The agreement, adopted by 196 Parties to the UNFCCC, entered into force on 4 November 2016 and as of May 2018 had 195 Signatories and was ratified by 177 Parties. One of the goals of the Paris Agreement is ‘Holding the increase in the global average temperature to well below 2°C above pre-industrial levels and pursuing efforts to limit the temperature increase to 1.5°C above pre-industrial levels’, recognizing that this would significantly reduce the risks and impacts of climate change. Additionally, the Agreement aims to strengthen the ability of countries to deal with the impacts of climate change. The Paris Agreement is intended to become fully effective in 2020.</term>
+      <term title="Quality assurance">Quality assurance (QA) activities include a planned system of review procedures conducted by personnel not directly involved in the inventory compilation/development process to verify that data quality objectives were met, ensure that the inventory represents the best possible estimate of emissions and sinks, given the current state of scientific knowledge and data available, and support the effectiveness of the quality control programme. </term>
+      <term title="Quality control">Quality control (QC) is a system of routine technical activities, to measure and control the quality of the inventory as it is being developed. </term>
+      <term title="REDD+">REDD+ (Reducing Emissions from Deforestation and Forest Degradation) refers to reducing emissions from deforestation; reducing emissions from forest degradation; conservation of forest carbon stocks; sustainable management of forests; and enhancement of forest carbon stocks (see UNFCCC decision 1/CP.16, para. 70).</term>
+      <term title="Removals ">Removal of greenhouse gases and/or their precursors from the atmosphere by a sink.</term>
+      <term title="Safeguards">A system for providing information on how the safeguards are being addressed and respected is one of the elements to be developed by developing country Parties implementing REDD+ activities (UNFCCC REDD+).</term>
+      <term title="Sink">Any process, activity or mechanism which removes a greenhouse gas, an aerosol, or a precursor of a greenhouse gas from the atmosphere. (UNFCCC Article 1.8) Notation in the final stages of reporting is the negative (-) sign.</term>
+      <term title="Source">Any process or activity which releases a greenhouse gas, an aerosol or a precursor of a greenhouse gas into the atmosphere. (UNFCCC Article 1.9) Notation in the final stages of reporting is the positive (+) sign.</term>
+      <term title="Tier">A tier represents a level of methodological complexity in the compilation of a greenhouse gas inventory, as classified by the IPCC. Usually three tiers are provided. Tier 1 is the basic method, Tier 2 intermediate and Tier 3 most demanding in terms of complexity and data requirements. Tiers 2 and 3 are sometimes referred to as higher-tier methods and are generally considered to be more accurate.</term>
+      <term title="Time series">A time series is a series of values that are affected by random processes and which are observed at successive (usually equidistant) points in time.</term>
+      <term title="Tropical forests">Tropical forests are found near the Equator in hot places where there is no dry season, receiving rain every month of the year.</term>
+      <term title="Uncertainty">Lack of knowledge of the true value of a variable that can be described as a probability density function characterizing the range and likelihood of possible values. Uncertainty depends on the analyst’s state of knowledge, which in turn depends on the quality and quantity of applicable data, as well as knowledge of underlying processes and inference methods.</term>
+      <term title="UNFCCC">The United Nations Framework Convention on Climate Change (UNFCCC) was adopted in May 1992 and opened for signature at the 1992 Earth Summit in Rio de Janeiro. It entered into force in March 1994 and as of May 2018 had 195 Parties. The Convention’s ultimate objective is the ‘stabilization of greenhouse gas concentrations in the atmosphere at a level that would prevent dangerous anthropogenic interference with the climate system’. The provisions of the Convention are pursued and implemented by two treaties: the Kyoto Protocol and the Paris Agreement.</term>
+    </terms>
+  </glossary_data>
+</bwFrame>
