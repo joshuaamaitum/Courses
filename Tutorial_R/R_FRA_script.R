@@ -100,8 +100,32 @@ french = data[c("French Guiana","France"),]
 french
 
 #=============================================================
+# 4.3.2 - Selection with Conditions
+#=============================================================
+
+head(data)
+data[data$Continent=="Asia",] # Select all data from a continent
+data[data$LA>=500000,] # Select countries with LA above 500000
+
+#=============================================================
 # 4.4 – Descriptive statistics of variables
 #=============================================================
+
+summary(data)
+table(data$Continent) # Frequency of factor variables
+vn = which(sapply(data, is.numeric)) # Identify the numeric variables
+vn
+datanum = data[,vn] # Table without factor variables
+head(datanum)
+
+# Apply statistics (affected by missing values)
+apply(datanum,2,min)
+apply(datanum,2,max)
+apply(datanum,2,quantile)
+
+# Deal with the missing values
+apply(datanum,2,min,na.rm=T)
+apply(datanum,2,max,na.rm=T)
 
 #=============================================================
 # 4.4.1 - General function
