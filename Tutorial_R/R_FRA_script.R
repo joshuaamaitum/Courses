@@ -126,20 +126,10 @@ apply(datanum,2,quantile)
 # Deal with the missing values
 apply(datanum,2,min,na.rm=T)
 apply(datanum,2,max,na.rm=T)
+apply(datanum,2,sd,na.rm=T)
+apply(datanum,2,mean,na.rm=T)
+apply(datanum,2,quantile,na.rm=T)
 
-#=============================================================
-# 4.4.1 - General function
-#=============================================================
+# Missing values
 
-
-
-#=============================================================
-# 4.4.3 - Descriptive statistics for numeric variables
-#=============================================================
-
-
-
-#=============================================================
-# 4.5 – Missing values
-#=============================================================
 
