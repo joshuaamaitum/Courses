@@ -73,11 +73,31 @@ data[c(71,82,127,130,169),] # Selection of French overseas territories
 # 4.3.2 - Selection with names
 #=============================================================
 
-# Selection with a row name
-Data["Algeria",]
+head(data)
+data["Algeria",] # Selection with a row name
+data["Uganda",]
 
 # Same selection with an abbreviation of the row name
-Data["Alg",]
+data["Alg",]
+data["Uga",]
+
+data[c("Ken","Uga","Tan","Rwa","Buru"),] # Select a list of rows
+head(data)
+data[,"Continent"] # Selection of a variable
+data$Continent
+
+# Select a dataframe subset with a 2 columns 
+selec = data[1:5,c("LA","FA")]
+selec
+class(selec) # Type of object
+
+# Select a dataframe subset with 1 column
+selec = data[6:10,c("LA")]
+selec
+
+# Select the data from French Guiana & France
+french = data[c("French Guiana","France"),]
+french
 
 #=============================================================
 # 4.4 – Descriptive statistics of variables
