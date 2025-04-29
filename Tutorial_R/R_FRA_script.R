@@ -142,4 +142,46 @@ MVv
 MVr = apply(MV,1,sum) # Number of missing values per row
 MVr
 table(MVr) # Frequency of the number of missing values per row
-data[MVr>0,] # Identify what rows have missing values
+data[MVr>0,] # Identify what specific rows have missing values
+
+# Question 13
+dataw = data[MVr==0,] # Table of rows without missing values
+dataw
+dim(dataw);dim(data)
+data1 = na.omit(data)
+dim(dataw);dim(data)
+
+# Replace all missing values (TRUE) with a zero
+MV = is.na(data)
+data[MV]=0
+summary(data) # NA now replaced with 0
+dim(dataw);dim(data)
+
+#=============================================================
+# 4.6 – Manipulation of dataframes
+#=============================================================
+
+#=============================================================
+# 4.6.1 – Creation of variables
+#=============================================================
+
+# These can be features for each variable
+
+data$FCR -> data$FA / data$LA # For example forest cover rate from FA & LA
+summary(data)
+head(data)
+
+# Create transformed variables
+data$LAlog = log10(data$LA)
+data$FAlog = log10(data$FA)
+summary(data)
+
+# Avoid infinite values in transformed functions
+data$LAlog <- log10(data$LA+1)
+data$FAlog <- log10(data$FA+1)
+summary(data) # Mean and the median are not very different
+
+
+
+
+
