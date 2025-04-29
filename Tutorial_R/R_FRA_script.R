@@ -130,6 +130,16 @@ apply(datanum,2,sd,na.rm=T)
 apply(datanum,2,mean,na.rm=T)
 apply(datanum,2,quantile,na.rm=T)
 
-# Missing values
+#=============================================================
+# 4.5 – Missing values
+#=============================================================
 
-
+MV = is.na(data) # TRUE is place of NA & FALSE else where
+head(MV)
+sum(MV) # Sum of missing values
+MVv = apply(MV,2,sum) # Number of missing values per variable
+MVv
+MVr = apply(MV,1,sum) # Number of missing values per row
+MVr
+table(MVr) # Frequency of the number of missing values per row
+data[MVr>0,] # Identify what rows have missing values
