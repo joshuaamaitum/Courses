@@ -181,6 +181,80 @@ data$LAlog <- log10(data$LA+1)
 data$FAlog <- log10(data$FA+1)
 summary(data) # Mean and the median are not very different
 
+#=============================================================
+# 4.6.2 – Ordering rows or columns
+#=============================================================
+
+# Ordering rows by increasing order of forest cover (lowest to highest)
+data[order(data$FCR),c("Continent","FCR")]
+head(data)
+
+# Order by decreasing forest cover
+data[order(data$FCR, decreasing=T),c("Continent","FCR")]
+
+# Select top 10 forest cover rate countries
+fcr <- data[order(data$FCR, decreasing=T),c("Continent","FCR")][1:10,]
+fcr
+
+#=============================================================
+# 4.7 – Statistics calculated from subsets of data
+#=============================================================
+
+# Compute average land and forest area per continent
+head(data)
+continents = aggregate(data[,2:3], list(data$Continent), mean, na.rm=T)
+continents
+
+# Land and forest cover per continent
+head(data)
+continents = aggregate(data[,2:3],list(data$Continent), sum, na.rm=T)
+continents
+
+# Transfer names of continents to row names and remove the first column
+rownames(continents) = continents[,1]
+continents
+continents = continents[,-1]
+continents
+
+# Forest cover rate per continent
+head(continents)
+continents$FCR = continents$FA / continents$LA
+continents
+continents = continents[order(continents$FCR,decreasing = T),]
+continents
+
+#=============================================================
+# 4.8 – Graphics
+#=============================================================
+
+#=============================================================
+# 4.8.1 – Comparing values of small data sets
+#=============================================================
+
+# Pie chart of forest area per continent
+pie(continents$FA,main="Forest area / Continent",labels=rownames(continents))
+
+# Bar chart of forest area per continent
+barplot(continents$FA,main="Forest Area / Continent",names=rownames(continents))
+
+# Make the thickness of the barplots proportional to land area
+barplot(continents$FCR,main="Forest Cover Rate / Continent",
+        width=continents$LA,names=rownames(continents),
+        ylab="Forest cover rate",
+        xlab="Continents")
+
+# Include the mean forest cover rate (global average)
+FCRw = sum(continents$FA)/sum(continents$LA)
+abline(h=FCRw, col="red", Ity=2)
+mtext(paste("Global FC rate :",round(FCRw*100,1),"%"),line=-4,col="red")
+
+# Territories per continent
+table(data$Continent)
+pie(table(data$Continent), main="Number of Territories")
+barplot(table(data$Continent), main="Number of Territories")
+
+
+
 
 
 
