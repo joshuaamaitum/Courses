@@ -92,7 +92,71 @@ x
 # 1.6 Arrays, Data Frames & Lists
 #=============================================================
 
+# A matrix is a 2 dimensional array, contain a single type
+# Data frame can be represented in a rectangular layout, can contain different types of variables
 
+# DATA FRAMES (List of variables each with the same length but not same type)
+help("iris")
+head(iris)
+View(iris)
+names(iris) # List column names
+iris$Species
+table(iris$Species) # Numbers for each species
+w <- iris[[2]] # Sepal.width (2nd column)
+mean(w)
+
+attach(iris) # Data frame is attached
+summary(Petal.Length[51:100]) # Variables referenced directly by name
+
+
+with(iris, summary(Petal.Length[51:100])) # Attach temporarily
+
+# Compute means by species
+View(iris)
+head(iris)
+m <- aggregate(iris[,1:4],list(iris$Species),mean,na.rm=T)
+m
+#by(iris[,1:4], Species, mean)
+detach(iris) # Detach when not needed
+
+# ARRAYs (A multiply subscripted collection of a single type of data)
+x <- 1:24 # vector
+dim(x) <- length(x) # 1 dimensional array
+matrix(1:24, nrow=4, ncol=6) # 4 by 6 matrix
+x <- array(1:24, c(3, 4, 2)) # 3 by 4 by 2 array
+x
+
+# MATRIX (A doubly subscripted array of a single type of data)
+A <- matrix(0, nrow=2, ncol=2)
+A <- matrix(c(0,0,0,0), nrow=2, ncol=2)
+A <- matrix(0,2,2)
+A <- matrix(1:8, nrow=2, ncol=4)
+
+# Convert first 4 columns of iris data into a matrix
+head(iris)
+x <- as.matrix(iris[,1:4]) # All rows of columns 1 to 4
+mean(x[,2]) # mean of sepal width, all species
+mean(x[51:100,3]) # mean of petal length, versicolor
+
+View(iris3)
+
+# LISTS (An ordered collection of objects)
+w <- wilcox.test(rnorm(10),rnorm(10, 2))
+w
+w$statistic
+w$p.value
+unlist(w)
+unclass(w)
+
+# Create a list to assign row and column names in a matrix
+a <- matrix(runif(8),4,2)
+a
+dimnames(a) <- list(NULL, c("x","y")) # If we want row names
+a
+
+#=============================================================
+# 1.7 Workspace and Files
+#=============================================================
 
 
 
