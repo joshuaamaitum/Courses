@@ -45,6 +45,10 @@ seq(10,50,5) # Sequence from 10 to 50 by 5
 
 # Avoid the use of T or t for assignment because they are already defined by R
 
+#=============================================================
+# 1.4 Using the R online help function
+#=============================================================
+
 help.search("permutation")
 
 sample(20) # Randomly generate numbers until 20
@@ -53,6 +57,45 @@ sample(30, size=5)
 
 example(sample)
 example(density)
+
+help(denisty)
+help(faithful)
+faithful$eruptions
+
+# Identify a list of available datasets
+data()
+help(geyser, package="MASS")
+
+View(InsectSprays) # View the dataset
+View(LakeHuron)
+View(Seatbelts)
+help("Seatbelts")
+
+#=============================================================
+# 1.5 Functions
+#=============================================================
+
+# Function that rolls n fair dice and returns the sum
+sumdice <- function(n) {
+  k <- sample(1:6, size=n, replace=TRUE)
+  return(sum(k))
+}
+
+# Print & store the result
+sumdice(2)
+a <- sumdice(100)
+a
+x <- a / 100
+x
+
+#=============================================================
+# 1.6 Arrays, Data Frames & Lists
+#=============================================================
+
+
+
+
+
 
 
 
