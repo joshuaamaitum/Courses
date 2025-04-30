@@ -31,9 +31,28 @@ seq(0, 3, 0.5) # Displays a sequence, but does not store it
 seq(0, 100, 10)
 x <- seq(0, 3, 0.5) # Stores a sequence, but does not display it
 
+# R Syntax and commonly used operators
 x <- log2(2)
 c(3,2,2) # Concatenation operator (combining multiple values into a vector)
 a * b # Elementwise multiplication
 2 ^ 1.5 # Exponention
+25 %% 3 # x mod y (returns reminder after division)
+25%/%3 # Integer division
+seq(10,50,5) # Sequence from 10 to 50 by 5
+0:20 # Sequence operator
+
+?Control # Control flow help function
+
+# Avoid the use of T or t for assignment because they are already defined by R
+
+help.search("permutation")
+
+sample(20) # Randomly generate numbers until 20
+sample(30)
+sample(30, size=5)
+
+example(sample)
+example(density)
+
 
 
