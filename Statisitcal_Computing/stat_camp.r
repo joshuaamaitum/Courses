@@ -192,10 +192,36 @@ library() # View the list of installed packages
 # library() & require() commands are used to load an installed package
 library(boot)
 help(package=boot) # Window showing the contents of the package
+?boot # Bring up the help topic
+installed.packages()
+
+#=============================================================
+# 1.10 Graphics
+#=============================================================
+
+# col = colours
+# pch = symbols
+# cex = symbol size
+# lty = line types
+
+plot.new() # if a plot is not open
+legend(locator(1), as.character(0:25),pch=0:25)
+
+legend(locator(1), as.character(0:8, lwd=20, col=0:8))
+
+plot.new()
+palette(rainbow(15))
+legend(locator(1), as.character(1:15), lwd=15, col=1:15)
+
+colors() # See vector of named colors
+
+dev.off() # Remove plots
+rm(list = ls()) # Remove all saved objects
 
 
-
-
+#=============================================================
+#           2. PROBABILITY AND STATISTICS REVIEW
+#=============================================================
 
 
 
