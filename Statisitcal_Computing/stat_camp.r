@@ -166,8 +166,32 @@ ls()
 # It is a better idea to save functions in scripts and data in files
 # Collections of functions & data sets can also be organised & documented in packages
 
+get(wd) # Get working directory
+set(wd) # Set working directory
 
+# Univariate data from an external file can be read into a vector by the scan command
+# read.table for a dataframe, matrix or csv
+# read.csv
+# read.delim
 
+#=============================================================
+# 1.8 Using scripts
+#=============================================================
+
+# The source command loads and executes the commands in the script
+# Use print command within a script to display the value of an expression
+
+sqrt(pi)
+print(sqrt(pi))
+
+#=============================================================
+# 1.9 Using packages
+#=============================================================
+
+library() # View the list of installed packages
+# library() & require() commands are used to load an installed package
+library(boot)
+help(package=boot) # Window showing the contents of the package
 
 
 
