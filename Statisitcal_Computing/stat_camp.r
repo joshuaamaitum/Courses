@@ -66,9 +66,9 @@ faithful$eruptions
 data()
 help(geyser, package="MASS")
 
-View(InsectSprays) # View the dataset
-View(LakeHuron)
-View(Seatbelts)
+#View(InsectSprays) # View the dataset
+#View(LakeHuron)
+#View(Seatbelts)
 help("Seatbelts")
 
 #=============================================================
@@ -98,7 +98,7 @@ x
 # DATA FRAMES (List of variables each with the same length but not same type)
 help("iris")
 head(iris)
-View(iris)
+#View(iris)
 names(iris) # List column names
 iris$Species
 table(iris$Species) # Numbers for each species
@@ -108,11 +108,10 @@ mean(w)
 attach(iris) # Data frame is attached
 summary(Petal.Length[51:100]) # Variables referenced directly by name
 
-
 with(iris, summary(Petal.Length[51:100])) # Attach temporarily
 
 # Compute means by species
-View(iris)
+#View(iris)
 head(iris)
 m <- aggregate(iris[,1:4],list(iris$Species),mean,na.rm=T)
 m
@@ -138,7 +137,7 @@ x <- as.matrix(iris[,1:4]) # All rows of columns 1 to 4
 mean(x[,2]) # mean of sepal width, all species
 mean(x[51:100,3]) # mean of petal length, versicolor
 
-View(iris3)
+#View(iris3)
 
 # LISTS (An ordered collection of objects)
 w <- wilcox.test(rnorm(10),rnorm(10, 2))
@@ -157,6 +156,21 @@ a
 #=============================================================
 # 1.7 Workspace and Files
 #=============================================================
+
+ls() # Display the names of objects in the current workspace
+remove() # Remove a specific object
+rm()
+rm(list = ls()) # Remove the entire list of objects
+ls()
+
+# It is a better idea to save functions in scripts and data in files
+# Collections of functions & data sets can also be organised & documented in packages
+
+
+
+
+
+
 
 
 
