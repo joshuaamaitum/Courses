@@ -1,32 +1,36 @@
 #############################################
 # Mapping deforestation height with R
-# Milos Popovic 2024/09/09
+# From Milos Popovic 2024/09/09
 #############################################
 
-install.packages("remotes")
+# 1. Install helper packages (only if missing)
+if (!requireNamespace("pacman", quietly = TRUE)) install.packages("pacman")
+if (!requireNamespace("remotes", quietly = TRUE)) install.packages("remotes")
+if (!requireNamespace("devtools", quietly = TRUE)) install.packages("devtools")
 
-remotes::install_github(
-    "wmgeolab/rgeoboundaries"
-)
+# 2. Install CRAN dependencies for rgeoboundaries
+cran_packages <- c("hoardr", "crul", "jsonlite", "dplyr", "purrr", "stringr", 
+                   "terra", "sf", "tidyverse", "tidyterra")
 
-remotes::install_github(
-    "riatelab/maptiles"
-)
+pacman::p_load(char = cran_packages, install = TRUE)
+# 3. Install GitHub packages with better error handling
+try(remotes::install_github("wmgeolab/rgeoboundaries", force = FALSE))
+try(remotes::install_github("riatelab/maptiles", force = FALSE))
 
-install.packages(
-    "pacman"
-)
-
+# 4. Load everything with pacman
 pacman::p_load(
-    rgeoboundaries,
-    terra,
-    sf,
-    maptiles,
-    tidyverse,
-    tidyterra
+  rgeoboundaries,
+  maptiles,
+  terra,
+  sf,
+  tidyverse,
+  tidyterra,
+  install = FALSE
 )
 
-# 1. COUNTRY SF
+# Install and load packages (terra = raster files, sf = polygons, tidyverse = visualization, tidyterra = map rasters without turning to data frame)
+
+# 1. COUNTRY SF (Fetch polygon for AOI)
 #--------------
 
 region_sf <- rgeoboundaries::gb_adm1(
